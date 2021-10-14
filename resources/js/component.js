@@ -1,5 +1,7 @@
 const frontend = {
-    home: require('./components/frontend/page/home/Home.vue').default,
+    home: require('./components/frontend/pages/Index.vue').default,
+
+    
 }
 
 

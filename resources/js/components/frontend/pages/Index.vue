@@ -83,7 +83,7 @@
                 <div class="icon-content">
                 <figure><img src="images/icon02.png" alt="Image"></figure>
                 <h3>For futuristic buildings</h3>
-                <small>Twenty spring of in esteem spirsit likely estate continue new building</small> <a href="#">+</a> </div>
+                <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 -->

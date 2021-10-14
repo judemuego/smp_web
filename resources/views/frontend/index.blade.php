@@ -13,8 +13,9 @@
         <link href="{{ asset('/template/css/fancybox.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/swiper.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/bootstrap.min.css') }}"  rel="stylesheet"/>
+        <link href="{{ asset('/template/css/style.css') }}" rel="stylesheet">
         <link href="{{ asset('/css/app.css') }}"  rel="stylesheet"/>
-        <link rel="stylesheet" href="{{ asset('/template/css/style.css') }}">
+
     
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

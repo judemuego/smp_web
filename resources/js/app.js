@@ -3,10 +3,21 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+import Vue from 'vue';
+
+
+import VueRouter from 'vue-router';
+import routers from './route';
+
+
+
 
 require('./bootstrap');
 
 window.Vue = require('vue');
+Vue.use(VueRouter);
+
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -36,4 +47,5 @@ Vue.component('footer-page', require('./components/frontend/partial/Footer.vue')
 
 const app = new Vue({
     el: '#app',
+    router: new VueRouter(routers),
 });
