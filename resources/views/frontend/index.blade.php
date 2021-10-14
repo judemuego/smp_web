@@ -8,13 +8,13 @@
         <title>Civil Registry Online Services</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <link href="{{ asset('/template/css/lineicons.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/odometer.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/fancybox.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/swiper.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/bootstrap.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/style.css') }}" rel="stylesheet">
-        <link href="{{ asset('/css/app.css') }}"  rel="stylesheet"/>
 
     
         <!-- fonts -->
