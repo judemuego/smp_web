@@ -1,18 +1,14 @@
 <template>
     <nav class="navbar">
         <div class="container">
-            <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="index.html"><img src="/template/images/smplogorev.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="languages">
-            <ul>
-                <li><a href="#">en</a></li>
-                <li><a href="#">ru</a></li>
-            </ul>
             </div>
             <!-- end languages -->
             <div class="site-menu">
             <ul>
-                <li><a href="#">Consto</a>
+                <li><a href="#">SMP</a>
                 <ul>
                     <li><a href="about-company.html">About Company</a></li>
                     <li><a href="core-values.html">Core Values</a></li>
@@ -23,8 +19,8 @@
                 </ul>
                 </li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="news.html">News</a></li>
+                <li><a href="projects.html">Portfolio</a></li>
+                <li><a href="news.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             </div>

@@ -37642,7 +37642,6 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container" },
     [
       _c("sidebar-page"),
       _vm._v(" "),
@@ -37747,17 +37746,17 @@ var staticRenderFns = [
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", { staticClass: "inner" }, [
                 _c("h2", [
-                  _vm._v("Making "),
-                  _c("b", [_vm._v("Dreams")]),
-                  _vm._v(" Comes Real")
+                  _vm._v("We "),
+                  _c("b", [_vm._v("Build")]),
+                  _vm._v(" Forever")
                 ]),
                 _vm._v(" "),
                 _c("p", [
-                  _vm._v("We building ambientic living spaces for families")
+                  _vm._v("When we build, let us think that we build forever")
                 ]),
                 _vm._v(" "),
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("EXPLORE FLATS "),
+                  _vm._v("BUILD WITH US "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
               ])
@@ -37766,17 +37765,17 @@ var staticRenderFns = [
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", { staticClass: "inner" }, [
                 _c("h2", [
-                  _vm._v("All "),
-                  _c("b", [_vm._v("Smart")]),
-                  _vm._v(" Apartments")
+                  _vm._v("We "),
+                  _c("b", [_vm._v("Build")]),
+                  _vm._v(" with Vision")
                 ]),
                 _vm._v(" "),
                 _c("p", [
-                  _vm._v("We building ambientic living spaces for families")
+                  _vm._v("We work as our descendants will thank us for")
                 ]),
                 _vm._v(" "),
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("SEE ALL CATALOGUE "),
+                  _vm._v("KNOW MORE ABOUT US "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
               ])
@@ -37785,17 +37784,19 @@ var staticRenderFns = [
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", { staticClass: "inner" }, [
                 _c("h2", [
-                  _vm._v("Mock "),
-                  _c("b", [_vm._v("Living")]),
-                  _vm._v(" Environment")
+                  _vm._v("We "),
+                  _c("b", [_vm._v("Lay")]),
+                  _vm._v(" Stone to Stone")
                 ]),
                 _vm._v(" "),
                 _c("p", [
-                  _vm._v("We building ambientic living spaces for families")
+                  _vm._v(
+                    "That a time is to come when those stones will be held sacred because our hands have touched them"
+                  )
                 ]),
                 _vm._v(" "),
                 _c("a", { attrs: { href: "#" } }, [
-                  _vm._v("DISCOVER CONSTO "),
+                  _vm._v("DISCOVER MORE "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
               ])
@@ -37870,7 +37871,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-4" }, [
             _c("div", { staticClass: "icon-content" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/icon01.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/icon01.png", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("h3", [_vm._v("We plan with sensetive")]),
@@ -37888,7 +37891,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-4" }, [
             _c("div", { staticClass: "icon-content" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/icon02.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/icon02.png", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("h3", [_vm._v("For futuristic buildings")]),
@@ -37906,7 +37911,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-4" }, [
             _c("div", { staticClass: "icon-content" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/icon03.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/icon03.png", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("h3", [_vm._v("Make living beautiful")]),
@@ -37946,7 +37953,10 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-lg-6" }, [
             _c("figure", { staticClass: "side-image" }, [
               _c("img", {
-                attrs: { src: "images/side-image01.png", alt: "Image" }
+                attrs: {
+                  src: "/template/images/side-image01.png",
+                  alt: "Image"
+                }
               })
             ])
           ]),
@@ -37977,7 +37987,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("figure", [
                 _c("img", {
-                  attrs: { src: "images/signature.png", alt: "Image" }
+                  attrs: { src: "/template/images/signature.png", alt: "Image" }
                 })
               ]),
               _vm._v(" "),
@@ -38121,7 +38131,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "images/slide02.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
                   })
                 ]),
                 _vm._v(" "),
@@ -38141,7 +38151,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "images/slide03.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
                   })
                 ]),
                 _vm._v(" "),
@@ -38161,7 +38171,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "images/slide01.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
                   })
                 ]),
                 _vm._v(" "),
@@ -39198,22 +39208,18 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "logo" }, [
           _c("a", { attrs: { href: "index.html" } }, [
-            _c("img", { attrs: { src: "images/logo.png", alt: "Image" } })
+            _c("img", {
+              attrs: { src: "/template/images/smplogorev.png", alt: "Image" }
+            })
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "languages" }, [
-          _c("ul", [
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("en")])]),
-            _vm._v(" "),
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("ru")])])
-          ])
-        ]),
+        _c("div", { staticClass: "languages" }),
         _vm._v(" "),
         _c("div", { staticClass: "site-menu" }, [
           _c("ul", [
             _c("li", [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Consto")]),
+              _c("a", { attrs: { href: "#" } }, [_vm._v("SMP")]),
               _vm._v(" "),
               _c("ul", [
                 _c("li", [
@@ -39262,12 +39268,12 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("li", [
               _c("a", { attrs: { href: "projects.html" } }, [
-                _vm._v("Projects")
+                _vm._v("Portfolio")
               ])
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("a", { attrs: { href: "news.html" } }, [_vm._v("News")])
+              _c("a", { attrs: { href: "news.html" } }, [_vm._v("About")])
             ]),
             _vm._v(" "),
             _c("li", [

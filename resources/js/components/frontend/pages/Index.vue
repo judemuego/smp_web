@@ -6,25 +6,25 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                 <div class="inner">
-                    <h2>Making <b>Dreams</b> Comes Real</h2>
-                    <p>We building ambientic living spaces for families</p>
-                    <a href="#">EXPLORE FLATS <i class="lni lni-arrow-right"></i></a> </div>
+                    <h2>We <b>Build</b> Forever</h2>
+                    <p>When we build, let us think that we build forever</p>
+                    <a href="#">BUILD WITH US <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                 <div class="inner">
-                    <h2>All <b>Smart</b> Apartments</h2>
-                    <p>We building ambientic living spaces for families</p>
-                    <a href="#">SEE ALL CATALOGUE <i class="lni lni-arrow-right"></i></a> </div>
+                    <h2>We <b>Build</b> with Vision</h2>
+                    <p>We work as our descendants will thank us for</p>
+                    <a href="#">KNOW MORE ABOUT US <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
                 <div class="inner">
-                    <h2>Mock <b>Living</b> Environment</h2>
-                    <p>We building ambientic living spaces for families</p>
-                    <a href="#">DISCOVER CONSTO <i class="lni lni-arrow-right"></i></a> </div>
+                    <h2>We <b>Lay</b> Stone to Stone</h2>
+                    <p>That a time is to come when those stones will be held sacred because our hands have touched them</p>
+                    <a href="#">DISCOVER MORE <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide --> 
@@ -73,7 +73,7 @@
             <div class="row">
             <div class="col-lg-4">
                 <div class="icon-content">
-                <figure><img src="images/icon01.png" alt="Image"></figure>
+                <figure><img src="/template/images/icon01.png" alt="Image"></figure>
                 <h3>We plan with sensetive</h3>
                 <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
@@ -81,7 +81,7 @@
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                <figure><img src="images/icon02.png" alt="Image"></figure>
+                <figure><img src="/template/images/icon02.png" alt="Image"></figure>
                 <h3>For futuristic buildings</h3>
                 <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
@@ -89,7 +89,7 @@
             <!-- end col-4 -->
             <div class="col-lg-4">
                 <div class="icon-content">
-                <figure><img src="images/icon03.png" alt="Image"></figure>
+                <figure><img src="/template/images/icon03.png" alt="Image"></figure>
                 <h3>Make living beautiful</h3>
                 <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
@@ -114,7 +114,7 @@
             </div>
             <!-- end col-12 -->
             <div class="col-lg-6">
-                <figure class="side-image"><img src="images/side-image01.png" alt="Image"></figure>
+                <figure class="side-image"><img src="/template/images/side-image01.png" alt="Image"></figure>
                 <!-- end side-image --> 
             </div>
             <!-- end col-6 -->
@@ -123,7 +123,7 @@
                 <h5>Departure performed exquisite</h5>
                 <p>In it except to so temper mutual tastes working. Interested cultivated its continuing now yet are. Out interested acceptance our <u>partiality affronting</u> unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual expression acceptance.</p>
                 <p>In astonished apartments resolution so an it. Unsatiable on by contrasted to <b>reasonable</b> companions an. Amounted repeated as believed in confined juvenile. </p>
-                <figure><img src="images/signature.png" alt="Image"></figure>
+                <figure><img src="/template/images/signature.png" alt="Image"></figure>
                 <h6>Dennis Rodman</h6>
                 <small>Main Engineer of Consto</small> </div>
                 <!-- end side-content --> 
@@ -198,7 +198,7 @@
         <div class="swiper-container project-slider">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide02.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/slide02.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Life Science Center</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>
@@ -207,7 +207,7 @@
             </div>
             <!-- end swiper-slide -->
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide03.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/slide03.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Life Science Center</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>
@@ -216,7 +216,7 @@
             </div>
             <!-- end swiper-slide -->
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="images/slide01.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/slide01.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Life Science Center</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <sidebar-page></sidebar-page>
         <header-page></header-page>
         <router-view></router-view>
