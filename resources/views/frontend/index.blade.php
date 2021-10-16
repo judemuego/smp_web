@@ -5,7 +5,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Civil Registry Online Services</title>
+        <title>SMP Construction Corporation</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
@@ -16,7 +16,8 @@
         <link href="{{ asset('/template/css/bootstrap.min.css') }}"  rel="stylesheet"/>
         <link href="{{ asset('/template/css/style.css') }}" rel="stylesheet">
 
-    
+        <link rel="shortcut icon" href="{{ asset('template/images/favlogo.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('template/images/favlogo.png') }}">            
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
