@@ -24,9 +24,7 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             </div>
-            <!-- end site-menu -->
-            <div class="search"> <i class="lni lni-search-alt"></i> </div>
-            <!-- end search -->
+       
             
             <div class="hamburger">
             <div id="hamburger"> <span></span> <span></span> <span></span> </div>

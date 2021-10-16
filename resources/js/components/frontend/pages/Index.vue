@@ -45,15 +45,15 @@
             <div class="swiper-container slider-main">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                <div class="slide-image" data-background="images/slide01.jpg"></div>
+                <div class="slide-image" data-background="/template/images/coverimg-1.jpg"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                <div class="slide-image" data-background="images/slide02.jpg"></div>
+                <div class="slide-image" data-background="/template/images/coverimg-2.jpg"></div>
                 </div>
                 <!-- end swiper-slide -->
                 <div class="swiper-slide">
-                <div class="slide-image" data-background="images/slide03.jpg"></div>
+                <div class="slide-image" data-background="/template/images/coverimg-3.jpg"></div>
                 </div>
                 <!-- end swiper-slide --> 
             </div>
@@ -66,7 +66,7 @@
         <!-- end container --> 
         </header>
         <!-- end slider -->
-        <div class="section-note">This section contains your estimated account balance from the legacy <u>Constro platform</u>, cumulated with your sales</div>
+        <div class="section-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         <!-- end section-note -->
         <section class="content-section">
         <div class="container">
@@ -75,7 +75,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon01.png" alt="Image"></figure>
                 <h3>We plan with sensetive</h3>
-                <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 -->
@@ -83,7 +83,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon02.png" alt="Image"></figure>
                 <h3>For futuristic buildings</h3>
-                <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 -->
@@ -91,7 +91,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon03.png" alt="Image"></figure>
                 <h3>Make living beautiful</h3>
-                <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 --> 
@@ -120,12 +120,12 @@
             <!-- end col-6 -->
             <div class="col-lg-6">
                 <div class="side-content">
-                <h5>Departure performed exquisite</h5>
-                <p>In it except to so temper mutual tastes working. Interested cultivated its continuing now yet are. Out interested acceptance our <u>partiality affronting</u> unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual expression acceptance.</p>
-                <p>In astonished apartments resolution so an it. Unsatiable on by contrasted to <b>reasonable</b> companions an. Amounted repeated as believed in confined juvenile. </p>
+                <h5>Title Sample One</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <u>minim veniam</u>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <b>officia deserunt</b> mollit anim id est laborum. </p>
                 <figure><img src="/template/images/signature.png" alt="Image"></figure>
-                <h6>Dennis Rodman</h6>
-                <small>Main Engineer of Consto</small> </div>
+                <h6>Juan Dela Cruz</h6>
+                <small>CEO, SMP Construction Corporation</small> </div>
                 <!-- end side-content --> 
             </div>
             <!-- end col-6 --> 
@@ -140,32 +140,32 @@
             <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="counter-box"> <span class="odometer" data-count="33" data-status="yes">0</span> <span class="value">%</span>
-                <h6>Mortgage Credit</h6>
-                <p>Out interested acceptance our reasonable companions an</p>
+                <h6>Figure Sample One</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <!-- end counter-box --> 
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
                 <div class="counter-box"> <span class="odometer" data-count="2021" data-status="yes">0</span> <span class="value">#</span>
-                <h6>Estimated Time</h6>
-                <p>Out interested acceptance our reasonable companions an</p>
+                <h6>Figure Sample Two</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <!-- end counter-box --> 
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
                 <div class="counter-box"> <span class="odometer" data-count="247" data-status="yes">0</span> <span class="value">m²</span>
-                <h6>XXL Size of Flats</h6>
-                <p>Out interested acceptance our reasonable companions an</p>
+                <h6>Figure Sample Three</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <!-- end counter-box --> 
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
                 <div class="counter-box"> <span class="odometer" data-count="529" data-status="yes">0</span> <span class="value">+</span>
-                <h6>Monthly Payment</h6>
-                <p>Out interested acceptance our reasonable companions an</p>
+                <h6>Figure Sample Four</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <!-- end counter-box --> 
             </div>
@@ -181,14 +181,14 @@
             <div class="row">
             <div class="col-lg-7">
                 <div class="section-title text-left">
-                <h6>FRIEND SALES TEAM</h6>
+                <h6>PRE TITLE SAMPLE</h6>
                 <h2>Projects Completed</h2>
                 </div>
                 <!-- end section-title --> 
             </div>
             <!-- end col-7 -->
             <div class="col-lg-5">
-                <p>Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
             <!-- end col-5 --> 
             </div>
@@ -198,27 +198,27 @@
         <div class="swiper-container project-slider">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="/template/images/slide02.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/project-1.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Life Science Center</h5>
+                    <h5>Project Name One</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>
                 </figcaption>
                 </figure>
             </div>
             <!-- end swiper-slide -->
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="/template/images/slide03.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/project-2.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Life Science Center</h5>
+                    <h5>Project Name Two</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>
                 </figcaption>
                 </figure>
             </div>
             <!-- end swiper-slide -->
             <div class="swiper-slide">
-                <figure class="project-box"> <a href="#"><img src="/template/images/slide01.jpg" alt="Image"></a>
+                <figure class="project-box"> <a href="#"><img src="/template/images/project-3.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Life Science Center</h5>
+                    <h5>Project Name Three</h5>
                     <p>The building opened in 2020 and includes more than 120+ flats</p>
                 </figcaption>
                 </figure>
@@ -236,7 +236,7 @@
             <div class="row no-gutters">
             <div class="col-12">
                 <div class="section-title text-left">
-                <h6>ESTIMATIED PRICE</h6>
+                <h6>PRE TITLE SAMPLE</h6>
                 <h2>Sectors We Work In</h2>
                 </div>
                 <!-- end section-title --> 
@@ -272,8 +272,8 @@
             <div class="row no-gutters">
             <div class="col-12">
                 <div class="section-title text-left">
-                <h6>ESTIMATIED PRICE</h6>
-                <h2>Mortage Calculator</h2>
+                <h6>PRE TITLE SAMPLE</h6>
+                <h2>Project Construction Calculator</h2>
                 </div>
                 <!-- end section-title --> 
             </div>
@@ -369,7 +369,7 @@
             <div class="row">
             <div class="col-12">
                 <div class="section-title">
-                <h6>FRIEND SALES TEAM</h6>
+                <h6>OUR SALES TEAM</h6>
                 <h2>Sales Representives</h2>
                 </div>
                 <!-- end section-title --> 
@@ -380,7 +380,7 @@
             <div class="row no-gutters">
             <div class="col">
                 <div class="sales-team">
-                <figure><img src="images/team01.jpg" alt="Image"></figure>
+                <figure><img src="/template/images/team01.jpg" alt="Image"></figure>
                 <div class="infos">
                     <h6>Jane O'neil</h6>
                     <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
@@ -397,7 +397,7 @@
             <!-- end col -->
             <div class="col">
                 <div class="sales-team">
-                <figure><img src="images/team02.jpg" alt="Image"></figure>
+                <figure><img src="/template/images/team02.jpg" alt="Image"></figure>
                 <div class="infos">
                     <h6>Bob Voss</h6>
                     <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
@@ -414,7 +414,7 @@
             <!-- end col -->
             <div class="col">
                 <div class="sales-team">
-                <figure><img src="images/team03.jpg" alt="Image"></figure>
+                <figure><img src="/template/images/team03.jpg" alt="Image"></figure>
                 <div class="infos">
                     <h6>Christina Eden</h6>
                     <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
@@ -431,7 +431,7 @@
             <!-- end col -->
             <div class="col">
                 <div class="sales-team">
-                <figure><img src="images/team04.jpg" alt="Image"></figure>
+                <figure><img src="/template/images/team04.jpg" alt="Image"></figure>
                 <div class="infos">
                     <h6>Eric Mendes</h6>
                     <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
@@ -448,7 +448,7 @@
             <!-- end col -->
             <div class="col">
                 <div class="sales-team">
-                <figure><img src="images/team05.jpg" alt="Image"></figure>
+                <figure><img src="/template/images/team05.jpg" alt="Image"></figure>
                 <div class="infos">
                     <h6>Marie Sheldon</h6>
                     <small>Chief Financial Offer</small> <b>+ 850 955 26 84</b>
@@ -473,8 +473,8 @@
         <div class="container">
             <div class="row">
             <div class="col-12">
-                <div class="video-box"> <a href="videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
-                <video src="videos/video01.mp4" autoplay muted loop playsinline></video>
+                <div class="video-box"> <a href="/template/videos/video01.mp4" data-fancybox data-width="640" data-height="360" class="play-btn"><i class="lni lni-play"></i></a>
+                <video src="/template/videos/video01.mp4" autoplay muted loop playsinline></video>
                 </div>
                 <!-- end video-box --> 
             </div>
@@ -541,27 +541,27 @@
         <div class="container">
             <div class="row no-gutters">
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo01.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo01.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo02.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo02.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo03.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo03.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo04.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo04.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo05.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo05.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 -->
             <div class="col-lg-2 col-md-4 col-6">
-                <figure class="logo-item"> <img src="images/logo06.png" alt="Image"> </figure>
+                <figure class="logo-item"> <img src="/template/images/logo06.png" alt="Image"> </figure>
             </div>
             <!-- end col-2 --> 
             </div>
@@ -583,10 +583,10 @@
             <!-- end col-12 -->
             <div class="col-lg-5">
                 <div class="recent-news">
-                <figure> <img src="images/slide01.jpg" alt="Image"> </figure>
+                <figure> <img src="/template/images/slide01.jpg" alt="Image"> </figure>
                 <div class="content"> <small>29 February, 2020</small>
-                    <h3><a href="#">Result of a challenge I participated in as a guest on The Futuristic</a></h3>
-                    <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
+                    <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h3>
+                    <div class="author"> <img src="/template/images/author01.jpg" alt="Image"> <span>by <b>SMP News</b></span> </div>
                     <!-- end author --> 
                 </div>
                 <!-- end content --> 
@@ -598,10 +598,10 @@
                 <div class="row inner">
                 <div class="col-md-6">
                     <div class="recent-news">
-                    <figure> <img src="images/slide02.jpg" alt="Image"> </figure>
+                    <figure> <img src="/template/images/slide02.jpg" alt="Image"> </figure>
                     <div class="content"> <small>29 February, 2020</small>
-                        <h3><a href="#">Challenge I participated in as a guest on all font</a></h3>
-                        <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
+                        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a></h3>
+                        <div class="author"> <img src="/template/images/author01.jpg" alt="Image"> <span>by <b>SMP News</b></span> </div>
                         <!-- end author --> 
                     </div>
                     <!-- end content --> 
@@ -611,10 +611,10 @@
                 <!-- end col-4 -->
                 <div class="col-md-6">
                     <div class="recent-news">
-                    <figure> <img src="images/slide03.jpg" alt="Image"> </figure>
+                    <figure> <img src="/template/images/slide03.jpg" alt="Image"> </figure>
                     <div class="content"> <small>29 February, 2020</small>
-                        <h3><a href="#">Participated challenge in as a guest on The Future</a></h3>
-                        <div class="author"> <img src="images/author01.jpg" alt="Image"> <span>by <b>Consto Editor</b></span> </div>
+                        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a></h3>
+                        <div class="author"> <img src="/template/images/author01.jpg" alt="Image"> <span>by <b>SMP News</b></span> </div>
                         <!-- end author --> 
                     </div>
                     <!-- end content --> 
@@ -636,11 +636,11 @@
         <div class="container">
             <div class="row">
             <div class="col-12">
-                <figure class="logo"> <img src="images/logo.png" alt="Image"> </figure>
+                <figure class="logo"> <img src="/template/images/smplogorev.png" alt="Image"> </figure>
                 <h2>Live <b>better</b> and <b>beautiful</b></h2>
                 <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
                 <div class="sales-representive">
-                <figure> <img src="images/author01.jpg" alt="Image"> </figure>
+                <figure> <img src="/template/images/author01.jpg" alt="Image"> </figure>
                 Sales representative <b>+1 (850) 344 0 66 #20</b> free call ! </div>
                 <!-- end sales-representive --> 
             </div>

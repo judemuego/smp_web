@@ -37679,6 +37679,12 @@ var render = function() {
   return _c("div", [
     _vm._m(0),
     _vm._v(" "),
+    _c("div", { staticClass: "section-note" }, [
+      _vm._v(
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      )
+    ]),
+    _vm._v(" "),
     _vm._m(1),
     _vm._v(" "),
     _vm._m(2),
@@ -37693,8 +37699,6 @@ var render = function() {
     _vm._v(" "),
     _vm._m(7),
     _vm._v(" "),
-    _vm._m(8),
-    _vm._v(" "),
     _c(
       "section",
       {
@@ -37706,11 +37710,11 @@ var render = function() {
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-12" }, [
               _c("div", { staticClass: "video-box" }, [
-                _vm._m(9),
+                _vm._m(8),
                 _vm._v(" "),
                 _c("video", {
                   attrs: {
-                    src: "videos/video01.mp4",
+                    src: "/template/videos/video01.mp4",
                     autoplay: "",
                     muted: "",
                     loop: "",
@@ -37721,17 +37725,17 @@ var render = function() {
               ])
             ]),
             _vm._v(" "),
-            _vm._m(10)
+            _vm._m(9)
           ])
         ])
       ]
     ),
     _vm._v(" "),
+    _vm._m(10),
+    _vm._v(" "),
     _vm._m(11),
     _vm._v(" "),
-    _vm._m(12),
-    _vm._v(" "),
-    _vm._m(13)
+    _vm._m(12)
   ])
 }
 var staticRenderFns = [
@@ -37821,21 +37825,21 @@ var staticRenderFns = [
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", {
                 staticClass: "slide-image",
-                attrs: { "data-background": "images/slide01.jpg" }
+                attrs: { "data-background": "/template/images/coverimg-1.jpg" }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", {
                 staticClass: "slide-image",
-                attrs: { "data-background": "images/slide02.jpg" }
+                attrs: { "data-background": "/template/images/coverimg-2.jpg" }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "swiper-slide" }, [
               _c("div", {
                 staticClass: "slide-image",
-                attrs: { "data-background": "images/slide03.jpg" }
+                attrs: { "data-background": "/template/images/coverimg-3.jpg" }
               })
             ])
           ]),
@@ -37847,18 +37851,6 @@ var staticRenderFns = [
           ])
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "section-note" }, [
-      _vm._v(
-        "This section contains your estimated account balance from the legacy "
-      ),
-      _c("u", [_vm._v("Constro platform")]),
-      _vm._v(", cumulated with your sales")
     ])
   },
   function() {
@@ -37880,7 +37872,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("small", [
                 _vm._v(
-                  "The awards for design, creativity and innovation on the Internet"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 )
               ]),
               _vm._v(" "),
@@ -37900,7 +37892,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("small", [
                 _vm._v(
-                  "Twenty spring of in esteem spirit likely estate continue new building"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 )
               ]),
               _vm._v(" "),
@@ -37920,7 +37912,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("small", [
                 _vm._v(
-                  "Sympathize it projection ye insipidity celebrated our pianoforte"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 )
               ]),
               _vm._v(" "),
@@ -37963,26 +37955,24 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-6" }, [
             _c("div", { staticClass: "side-content" }, [
-              _c("h5", [_vm._v("Departure performed exquisite")]),
+              _c("h5", [_vm._v("Title Sample One")]),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "In it except to so temper mutual tastes working. Interested cultivated its continuing now yet are. Out interested acceptance our "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad "
                 ),
-                _c("u", [_vm._v("partiality affronting")]),
+                _c("u", [_vm._v("minim veniam")]),
                 _vm._v(
-                  " unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual expression acceptance."
+                  ", quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
                 )
               ]),
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  "In astonished apartments resolution so an it. Unsatiable on by contrasted to "
+                  "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui "
                 ),
-                _c("b", [_vm._v("reasonable")]),
-                _vm._v(
-                  " companions an. Amounted repeated as believed in confined juvenile. "
-                )
+                _c("b", [_vm._v("officia deserunt")]),
+                _vm._v(" mollit anim id est laborum. ")
               ]),
               _vm._v(" "),
               _c("figure", [
@@ -37991,9 +37981,9 @@ var staticRenderFns = [
                 })
               ]),
               _vm._v(" "),
-              _c("h6", [_vm._v("Dennis Rodman")]),
+              _c("h6", [_vm._v("Juan Dela Cruz")]),
               _vm._v(" "),
-              _c("small", [_vm._v("Main Engineer of Consto")])
+              _c("small", [_vm._v("CEO, SMP Construction Corporation")])
             ])
           ])
         ])
@@ -38020,10 +38010,12 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("span", { staticClass: "value" }, [_vm._v("%")]),
               _vm._v(" "),
-              _c("h6", [_vm._v("Mortgage Credit")]),
+              _c("h6", [_vm._v("Figure Sample One")]),
               _vm._v(" "),
               _c("p", [
-                _vm._v("Out interested acceptance our reasonable companions an")
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                )
               ])
             ])
           ]),
@@ -38041,10 +38033,12 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("span", { staticClass: "value" }, [_vm._v("#")]),
               _vm._v(" "),
-              _c("h6", [_vm._v("Estimated Time")]),
+              _c("h6", [_vm._v("Figure Sample Two")]),
               _vm._v(" "),
               _c("p", [
-                _vm._v("Out interested acceptance our reasonable companions an")
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                )
               ])
             ])
           ]),
@@ -38062,10 +38056,12 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("span", { staticClass: "value" }, [_vm._v("m²")]),
               _vm._v(" "),
-              _c("h6", [_vm._v("XXL Size of Flats")]),
+              _c("h6", [_vm._v("Figure Sample Three")]),
               _vm._v(" "),
               _c("p", [
-                _vm._v("Out interested acceptance our reasonable companions an")
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                )
               ])
             ])
           ]),
@@ -38083,10 +38079,12 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("span", { staticClass: "value" }, [_vm._v("+")]),
               _vm._v(" "),
-              _c("h6", [_vm._v("Monthly Payment")]),
+              _c("h6", [_vm._v("Figure Sample Four")]),
               _vm._v(" "),
               _c("p", [
-                _vm._v("Out interested acceptance our reasonable companions an")
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                )
               ])
             ])
           ])
@@ -38109,7 +38107,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-lg-7" }, [
               _c("div", { staticClass: "section-title text-left" }, [
-                _c("h6", [_vm._v("FRIEND SALES TEAM")]),
+                _c("h6", [_vm._v("PRE TITLE SAMPLE")]),
                 _vm._v(" "),
                 _c("h2", [_vm._v("Projects Completed")])
               ])
@@ -38118,7 +38116,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-lg-5" }, [
               _c("p", [
                 _vm._v(
-                  "Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies."
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
                 )
               ])
             ])
@@ -38131,12 +38129,15 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                    attrs: {
+                      src: "/template/images/project-1.jpg",
+                      alt: "Image"
+                    }
                   })
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Life Science Center")]),
+                  _c("h5", [_vm._v("Project Name One")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
@@ -38151,12 +38152,15 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
+                    attrs: {
+                      src: "/template/images/project-2.jpg",
+                      alt: "Image"
+                    }
                   })
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Life Science Center")]),
+                  _c("h5", [_vm._v("Project Name Two")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
@@ -38171,12 +38175,15 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
+                    attrs: {
+                      src: "/template/images/project-3.jpg",
+                      alt: "Image"
+                    }
                   })
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Life Science Center")]),
+                  _c("h5", [_vm._v("Project Name Three")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
@@ -38202,7 +38209,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row no-gutters" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("div", { staticClass: "section-title text-left" }, [
-              _c("h6", [_vm._v("ESTIMATIED PRICE")]),
+              _c("h6", [_vm._v("PRE TITLE SAMPLE")]),
               _vm._v(" "),
               _c("h2", [_vm._v("Sectors We Work In")])
             ])
@@ -38273,9 +38280,9 @@ var staticRenderFns = [
         _c("div", { staticClass: "row no-gutters" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("div", { staticClass: "section-title text-left" }, [
-              _c("h6", [_vm._v("ESTIMATIED PRICE")]),
+              _c("h6", [_vm._v("PRE TITLE SAMPLE")]),
               _vm._v(" "),
-              _c("h2", [_vm._v("Mortage Calculator")])
+              _c("h2", [_vm._v("Project Construction Calculator")])
             ])
           ]),
           _vm._v(" "),
@@ -38502,7 +38509,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("div", { staticClass: "section-title" }, [
-              _c("h6", [_vm._v("FRIEND SALES TEAM")]),
+              _c("h6", [_vm._v("OUR SALES TEAM")]),
               _vm._v(" "),
               _c("h2", [_vm._v("Sales Representives")])
             ])
@@ -38513,7 +38520,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col" }, [
             _c("div", { staticClass: "sales-team" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/team01.jpg", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/team01.jpg", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "infos" }, [
@@ -38549,7 +38558,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col" }, [
             _c("div", { staticClass: "sales-team" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/team02.jpg", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/team02.jpg", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "infos" }, [
@@ -38585,7 +38596,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col" }, [
             _c("div", { staticClass: "sales-team" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/team03.jpg", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/team03.jpg", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "infos" }, [
@@ -38621,7 +38634,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col" }, [
             _c("div", { staticClass: "sales-team" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/team04.jpg", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/team04.jpg", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "infos" }, [
@@ -38657,7 +38672,9 @@ var staticRenderFns = [
           _c("div", { staticClass: "col" }, [
             _c("div", { staticClass: "sales-team" }, [
               _c("figure", [
-                _c("img", { attrs: { src: "images/team05.jpg", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/team05.jpg", alt: "Image" }
+                })
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "infos" }, [
@@ -38702,7 +38719,7 @@ var staticRenderFns = [
       {
         staticClass: "play-btn",
         attrs: {
-          href: "videos/video01.mp4",
+          href: "/template/videos/video01.mp4",
           "data-fancybox": "",
           "data-width": "640",
           "data-height": "360"
@@ -38810,37 +38827,49 @@ var staticRenderFns = [
           _c("div", { staticClass: "row no-gutters" }, [
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo01.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo01.png", alt: "Image" }
+                })
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo02.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo02.png", alt: "Image" }
+                })
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo03.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo03.png", alt: "Image" }
+                })
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo04.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo04.png", alt: "Image" }
+                })
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo05.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo05.png", alt: "Image" }
+                })
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-2 col-md-4 col-6" }, [
               _c("figure", { staticClass: "logo-item" }, [
-                _c("img", { attrs: { src: "images/logo06.png", alt: "Image" } })
+                _c("img", {
+                  attrs: { src: "/template/images/logo06.png", alt: "Image" }
+                })
               ])
             ])
           ])
@@ -38867,7 +38896,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "recent-news" }, [
               _c("figure", [
                 _c("img", {
-                  attrs: { src: "images/slide01.jpg", alt: "Image" }
+                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
                 })
               ]),
               _vm._v(" "),
@@ -38877,20 +38906,20 @@ var staticRenderFns = [
                 _c("h3", [
                   _c("a", { attrs: { href: "#" } }, [
                     _vm._v(
-                      "Result of a challenge I participated in as a guest on The Futuristic"
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     )
                   ])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "author" }, [
                   _c("img", {
-                    attrs: { src: "images/author01.jpg", alt: "Image" }
+                    attrs: {
+                      src: "/template/images/author01.jpg",
+                      alt: "Image"
+                    }
                   }),
                   _vm._v(" "),
-                  _c("span", [
-                    _vm._v("by "),
-                    _c("b", [_vm._v("Consto Editor")])
-                  ])
+                  _c("span", [_vm._v("by "), _c("b", [_vm._v("SMP News")])])
                 ])
               ])
             ])
@@ -38902,7 +38931,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "recent-news" }, [
                   _c("figure", [
                     _c("img", {
-                      attrs: { src: "images/slide02.jpg", alt: "Image" }
+                      attrs: {
+                        src: "/template/images/slide02.jpg",
+                        alt: "Image"
+                      }
                     })
                   ]),
                   _vm._v(" "),
@@ -38912,20 +38944,20 @@ var staticRenderFns = [
                     _c("h3", [
                       _c("a", { attrs: { href: "#" } }, [
                         _vm._v(
-                          "Challenge I participated in as a guest on all font"
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
                         )
                       ])
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "author" }, [
                       _c("img", {
-                        attrs: { src: "images/author01.jpg", alt: "Image" }
+                        attrs: {
+                          src: "/template/images/author01.jpg",
+                          alt: "Image"
+                        }
                       }),
                       _vm._v(" "),
-                      _c("span", [
-                        _vm._v("by "),
-                        _c("b", [_vm._v("Consto Editor")])
-                      ])
+                      _c("span", [_vm._v("by "), _c("b", [_vm._v("SMP News")])])
                     ])
                   ])
                 ])
@@ -38935,7 +38967,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "recent-news" }, [
                   _c("figure", [
                     _c("img", {
-                      attrs: { src: "images/slide03.jpg", alt: "Image" }
+                      attrs: {
+                        src: "/template/images/slide03.jpg",
+                        alt: "Image"
+                      }
                     })
                   ]),
                   _vm._v(" "),
@@ -38945,20 +38980,20 @@ var staticRenderFns = [
                     _c("h3", [
                       _c("a", { attrs: { href: "#" } }, [
                         _vm._v(
-                          "Participated challenge in as a guest on The Future"
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
                         )
                       ])
                     ]),
                     _vm._v(" "),
                     _c("div", { staticClass: "author" }, [
                       _c("img", {
-                        attrs: { src: "images/author01.jpg", alt: "Image" }
+                        attrs: {
+                          src: "/template/images/author01.jpg",
+                          alt: "Image"
+                        }
                       }),
                       _vm._v(" "),
-                      _c("span", [
-                        _vm._v("by "),
-                        _c("b", [_vm._v("Consto Editor")])
-                      ])
+                      _c("span", [_vm._v("by "), _c("b", [_vm._v("SMP News")])])
                     ])
                   ])
                 ])
@@ -38978,7 +39013,9 @@ var staticRenderFns = [
         _c("div", { staticClass: "row" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("figure", { staticClass: "logo" }, [
-              _c("img", { attrs: { src: "images/logo.png", alt: "Image" } })
+              _c("img", {
+                attrs: { src: "/template/images/smplogorev.png", alt: "Image" }
+              })
             ]),
             _vm._v(" "),
             _c("h2", [
@@ -38996,7 +39033,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "sales-representive" }, [
               _c("figure", [
                 _c("img", {
-                  attrs: { src: "images/author01.jpg", alt: "Image" }
+                  attrs: { src: "/template/images/author01.jpg", alt: "Image" }
                 })
               ]),
               _vm._v("\r\n                Sales representative "),
@@ -39282,10 +39319,6 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "search" }, [
-          _c("i", { staticClass: "lni lni-search-alt" })
-        ]),
-        _vm._v(" "),
         _c("div", { staticClass: "hamburger" }, [
           _c("div", { attrs: { id: "hamburger" } }, [
             _c("span"),
@@ -39350,7 +39383,9 @@ var staticRenderFns = [
       _c("div", { staticClass: "inner" }, [
         _c("div", { staticClass: "logo" }, [
           _c("a", { attrs: { href: "index.html" } }, [
-            _c("img", { attrs: { src: "images/logo.png", alt: "Image" } })
+            _c("img", {
+              attrs: { src: "/template/images/smplogorev.png", alt: "Image" }
+            })
           ])
         ]),
         _vm._v(" "),
@@ -39364,17 +39399,25 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("figure", { staticClass: "gallery" }, [
-            _c("img", { attrs: { src: "images/slide02.jpg", alt: "Image" } }),
-            _c("img", { attrs: { src: "images/slide03.jpg", alt: "Image" } })
+            _c("img", {
+              attrs: { src: "/template/images/sidebar-img1.jpg", alt: "Image" }
+            }),
+            _c("img", {
+              attrs: { src: "/template/images/sidebar-img2.jpg", alt: "Image" }
+            })
           ]),
           _vm._v(" "),
           _c("h6", { staticClass: "widget-title" }, [_vm._v("ADDRESS")]),
           _vm._v(" "),
           _c("address", { staticClass: "address" }, [
             _c("p", [
-              _vm._v("228 Cardigan Road, Leeds"),
+              _vm._v("Lot 14 Block 2, Yakal Street,  "),
               _c("br"),
-              _vm._v("\n            Geneva Switzerland")
+              _vm._v(
+                "\n            Agapito Subdivision, Santolan, \n            "
+              ),
+              _c("br"),
+              _vm._v("Pasig City")
             ]),
             _vm._v(" "),
             _c("p", [_vm._v("+1 (850) 344 0 66 #20")])

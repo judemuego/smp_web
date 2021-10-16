@@ -1,15 +1,16 @@
 <template>
     <aside class="side-widget">
         <div class="inner">
-            <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="index.html"><img src="/template/images/smplogorev.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="hide-mobile">
             <p>Extremity direction existence as dashwoods do up. Securing <u>marianne led</u> welcomed offended but offering six raptures. </p>
-            <figure class="gallery"><img src="images/slide02.jpg" alt="Image"><img src="images/slide03.jpg" alt="Image"></figure>
+            <figure class="gallery"><img src="/template/images/sidebar-img1.jpg" alt="Image"><img src="/template/images/sidebar-img2.jpg" alt="Image"></figure>
             <h6 class="widget-title">ADDRESS</h6>
             <address class="address">
-            <p>228 Cardigan Road, Leeds<br>
-                Geneva Switzerland</p>
+            <p>Lot 14 Block 2, Yakal Street,  <br>
+                Agapito Subdivision, Santolan, 
+                <br>Pasig City</p>
             <p>+1 (850) 344 0 66 #20</p>
             </address>
             <h6 class="widget-title">FOLLOW US</h6>
