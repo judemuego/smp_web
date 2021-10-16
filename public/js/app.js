@@ -38739,15 +38739,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "testimonial" }, [
               _c("p", [
                 _vm._v(
-                  "Consto Construction is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Consto again in the near future!"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
                 )
               ]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-quotation" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("William James")]),
+              _c("h6", [_vm._v("Maria Reyes")]),
               _vm._v(" "),
-              _c("small", [_vm._v("Life Touch LLC")])
+              _c("small", [_vm._v("Pinoy Homes LLC")])
             ])
           ]),
           _vm._v(" "),
@@ -38755,15 +38755,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "testimonial" }, [
               _c("p", [
                 _vm._v(
-                  "Consto was completely respectful of the building and its surroundings - they immediately became part of our team and they know teamwork! They kept the jobsite clean and safe; working with Consto is nothing short of a first class experience!"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
                 )
               ]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-quotation" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("William James")]),
+              _c("h6", [_vm._v("Maria Reyes")]),
               _vm._v(" "),
-              _c("small", [_vm._v("Life Touch LLC")])
+              _c("small", [_vm._v("Pinoy Homes LLC")])
             ])
           ]),
           _vm._v(" "),
@@ -38771,15 +38771,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "testimonial" }, [
               _c("p", [
                 _vm._v(
-                  "Thank you for all of your hard work on our project…I seriously don’t know how you did it but it came together SO WELL. I know we are a particular bunch and want things a certain way but you guys did such an amazing job!"
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
                 )
               ]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-quotation" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("William James")]),
+              _c("h6", [_vm._v("Maria Reyes")]),
               _vm._v(" "),
-              _c("small", [_vm._v("Life Touch LLC")])
+              _c("small", [_vm._v("Pinoy Homes LLC")])
             ])
           ]),
           _vm._v(" "),
@@ -38787,15 +38787,15 @@ var staticRenderFns = [
             _c("div", { staticClass: "testimonial" }, [
               _c("p", [
                 _vm._v(
-                  "I was truly impressed with Consto’s quality workmanship and the final product. Consto provided an outstanding team that completed our project on-time and on schedule with no disruption to the staff."
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
                 )
               ]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-quotation" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("William James")]),
+              _c("h6", [_vm._v("Maria Reyes")]),
               _vm._v(" "),
-              _c("small", [_vm._v("Life Touch LLC")])
+              _c("small", [_vm._v("Pinoy Homes LLC")])
             ])
           ])
         ]),
@@ -39085,9 +39085,11 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("address", [
                 _c("p", [
-                  _vm._v("228 Cardigan Road, Leeds"),
+                  _vm._v("Lot 14 Block 2, Yakal Street, "),
                   _c("br"),
-                  _vm._v("\r\n                Geneva Switzerland")
+                  _vm._v("\r\n                Agapito Subdivision, Santolan, "),
+                  _c("br"),
+                  _vm._v("\r\n                Pasig City")
                 ]),
                 _vm._v(" "),
                 _c("p", [_vm._v("+1 (850) 344 0 66 #20")]),
@@ -39115,9 +39117,11 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("address", [
                 _c("p", [
-                  _vm._v("121 South 8th Street, Suite 1200"),
+                  _vm._v("Lot 14 Block 2, Yakal Street, "),
                   _c("br"),
-                  _vm._v("\r\n                Minneapolis MN 55402")
+                  _vm._v("\r\n                Agapito Subdivision, Santolan, "),
+                  _c("br"),
+                  _vm._v("\r\n                Pasig City")
                 ]),
                 _vm._v(" "),
                 _c("p", [_vm._v("+1 (850) 344 0 66 #20")]),
@@ -39156,9 +39160,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "col-12" }, [
               _c("div", { staticClass: "footer-bottom" }, [
-                _c("span", [
-                  _vm._v("© 2020 Consto | Industrial Construction Company")
-                ]),
+                _c("span", [_vm._v("© 2020 SMP | Construction Corporation")]),
                 _vm._v(" "),
                 _c("ul", [
                   _c("li", [

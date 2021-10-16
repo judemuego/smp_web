@@ -484,37 +484,37 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                     <div class="testimonial">
-                        <p>Consto Construction is one of the best general contractors we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with Consto again in the near future!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <i class="lni lni-quotation"></i>
-                        <h6>William James</h6>
-                        <small>Life Touch LLC</small> </div>
+                        <h6>Maria Reyes</h6>
+                        <small>Pinoy Homes LLC</small> </div>
                     <!-- end testimonial --> 
                     </div>
                     <!-- end swiper-slide -->
                     <div class="swiper-slide">
                     <div class="testimonial">
-                        <p>Consto was completely respectful of the building and its surroundings - they immediately became part of our team and they know teamwork! They kept the jobsite clean and safe; working with Consto is nothing short of a first class experience!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <i class="lni lni-quotation"></i>
-                        <h6>William James</h6>
-                        <small>Life Touch LLC</small> </div>
+                        <h6>Maria Reyes</h6>
+                        <small>Pinoy Homes LLC</small> </div>
                     <!-- end testimonial --> 
                     </div>
                     <!-- end swiper-slide -->
                     <div class="swiper-slide">
                     <div class="testimonial">
-                        <p>Thank you for all of your hard work on our project…I seriously don’t know how you did it but it came together SO WELL. I know we are a particular bunch and want things a certain way but you guys did such an amazing job!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <i class="lni lni-quotation"></i>
-                        <h6>William James</h6>
-                        <small>Life Touch LLC</small> </div>
+                        <h6>Maria Reyes</h6>
+                        <small>Pinoy Homes LLC</small> </div>
                     <!-- end testimonial --> 
                     </div>
                     <!-- end swiper-slide -->
                     <div class="swiper-slide">
                     <div class="testimonial">
-                        <p>I was truly impressed with Consto’s quality workmanship and the final product. Consto provided an outstanding team that completed our project on-time and on schedule with no disruption to the staff.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <i class="lni lni-quotation"></i>
-                        <h6>William James</h6>
-                        <small>Life Touch LLC</small> </div>
+                        <h6>Maria Reyes</h6>
+                        <small>Pinoy Homes LLC</small> </div>
                     <!-- end testimonial --> 
                     </div>
                     <!-- end swiper-slide --> 

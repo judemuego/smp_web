@@ -6,8 +6,9 @@
             <div class="col-lg-4 col-md-6">
                 <h6 class="widget-title">HEADQUARTER</h6>
                 <address>
-                <p>228 Cardigan Road, Leeds<br>
-                Geneva Switzerland</p>
+                <p>Lot 14 Block 2, Yakal Street, <br>
+                Agapito Subdivision, Santolan, <br>
+                Pasig City</p>
                 <p>+1 (850) 344 0 66 #20</p>
                 <a href="https://www.google.com/maps/search/?api=1&query=centurylink+field" data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
                 </address>
@@ -16,8 +17,9 @@
             <div class="col-lg-4 col-md-6">
                 <h6 class="widget-title">SALES OFFICES</h6>
                 <address>
-                <p>121 South 8th Street, Suite 1200<br>
-                Minneapolis MN 55402</p>
+                <p>Lot 14 Block 2, Yakal Street, <br>
+                Agapito Subdivision, Santolan, <br>
+                Pasig City</p>
                 <p>+1 (850) 344 0 66 #20</p>
                 <a href="https://www.google.com/maps/search/?api=1&query=centurylink+field" data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
                 </address>
@@ -33,7 +35,7 @@
             </div>
             <!-- end col-4 -->
             <div class="col-12">
-                <div class="footer-bottom"> <span>© 2020 Consto | Industrial Construction Company</span>
+                <div class="footer-bottom"> <span>© 2020 SMP | Construction Corporation</span>
                 <ul>
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Instagram</a></li>
