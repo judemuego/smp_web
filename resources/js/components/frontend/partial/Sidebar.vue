@@ -1,7 +1,7 @@
 <template>
     <aside class="side-widget">
         <div class="inner">
-            <div class="logo"> <a href="index.html"><img src="/template/images/smplogorev.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="index.html"><img src="/template/images/logo_vertical_sidebar.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="hide-mobile">
             <p>Extremity direction existence as dashwoods do up. Securing <u>marianne led</u> welcomed offended but offering six raptures. </p>
@@ -50,7 +50,7 @@
             <!-- end site-menu --> 
             </div>
             <!-- end show-mobile --> 
-            <small>© 2020 Consto | Industrial Construction Company</small> </div>
+            <small>© 2020 SMP | Construction Corporation</small> </div>
         <!-- end inner --> 
     </aside>
 </template>

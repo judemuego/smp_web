@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('frontend.index');
 });
+
+Route::get('/{vue?}', function () { return view('frontend.index'); })->where('vue', '[\/\w\.-]*');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

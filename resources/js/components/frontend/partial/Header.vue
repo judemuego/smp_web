@@ -1,27 +1,27 @@
 <template>
     <nav class="navbar">
         <div class="container">
-            <div class="logo"> <a href="index.html"><img src="/template/images/smplogorev.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="/"><img src="/template/images/logo_vertical.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="languages">
             </div>
             <!-- end languages -->
             <div class="site-menu">
             <ul>
-                <li><a href="#">SMP</a>
+                <li><a href="/">SMP</a>
                 <ul>
-                    <li><a href="about-company.html">About Company</a></li>
-                    <li><a href="core-values.html">Core Values</a></li>
-                    <li><a href="leadership.html">Leadership</a></li>
-                    <li><a href="our-history.html">Our History</a></li>
-                    <li><a href="offices.html">Offices</a></li>
-                    <li><a href="certificates.html">Certificates</a></li>
+                    <li><a href="/smp/about-company">About Company</a></li>
+                    <li><a href="/smp/core-values">Core Values</a></li>
+                    <li><a href="/smp/leadership">Leadership</a></li>
+                    <li><a href="/smp/our-history">Our History</a></li>
+                    <li><a href="/smp/our-logo">Our Logo</a></li>
+                    <li><a href="/smp/certificates">Certificates</a></li>
                 </ul>
                 </li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Portfolio</a></li>
-                <li><a href="news.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/projects">Portfolio</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
             </div>
        

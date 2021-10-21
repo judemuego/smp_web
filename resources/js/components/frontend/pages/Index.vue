@@ -265,104 +265,7 @@
         <!-- end container --> 
         </section>
         <!-- end content-section -->
-        <section class="content-section calculator">
-        <div class="bg-image" data-background="images/section-bg01.jpg"></div>
-        <!-- end bg-image -->
-        <div class="container">
-            <div class="row no-gutters">
-            <div class="col-12">
-                <div class="section-title text-left">
-                <h6>PRE TITLE SAMPLE</h6>
-                <h2>Project Construction Calculator</h2>
-                </div>
-                <!-- end section-title --> 
-            </div>
-            <!-- end col-12 -->
-            <div class="col-lg-10">
-                
-                <form class="form">
-                <div class="row">
-                    <div class="form-group col-md-6">
-                    <p>How many rooms :</p>
-                    <div class="range-slider">
-                        <input class="range-slider__range" id="value1" type="range" value="30000" min="0" max="50000" step="10000">
-                        <span class="range-slider__value">0</span> </div>
-                    <!-- edn range-slider --> 
-                    </div>
-                    <!-- end form-group -->
-                    <div class="form-group col-md-6">
-                    <p>Number of floor :</p>
-                    <div class="range-slider">
-                        <input class="range-slider__range" id="value2" type="range" value="5000" min="0" max="10000" step="1000">
-                        <span class="range-slider__value">0</span> </div>
-                    <!-- edn range-slider --> 
-                    </div>
-                    <!-- end form-group -->
-                    <div class="form-group col-lg-4 col-md-6">
-                    <p>Energy Type :</p>
-                    <select  id="value3">
-                        <option value="0">Select Now</option>
-                        <option value="10000">Electricity</option>
-                        <option value="15000">Natural Gas</option>
-                        <option value="20000">Solar Panel</option>
-                    </select>
-                    </div>
-                    <!-- end form-group -->
-                    
-                    <div class="form-group col-lg-4 col-md-6">
-                    <p>Bathroom :</p>
-                    <select id="value4">
-                        <option value="0">Select Now</option>
-                        <option value="10000">1 Bathroom</option>
-                        <option value="15000">2 Bathrooms</option>
-                        <option value="20000">3 Bathrooms</option>
-                    </select>
-                    </div>
-                    <!-- end form-group -->
-                    
-                    <div class="form-group col-lg-4 col-md-12">
-                    <p>Terrace :</p>
-                    <div class="yes-no" id="yes-no">
-                        <input type="radio" name="rdo" id="yes" value="15000" checked />
-                        <input type="radio" name="rdo" id="no" value="0" />
-                        <div class="switch">
-                        <label for="yes">Yes</label>
-                        <label for="no">No</label>
-                        <span></span> </div>
-                    </div>
-                    <!-- end yes-no --> 
-                    </div>
-                    <!-- end form-group -->
-                    <div class="form-group col-12" id="checkboxes">
-                    <p>Building Materials</p>
-                    <input type="checkbox" id="one" value="1000" checked>
-                    <label class="custom-checkbox" for="one"> Cellular Concrete </label>
-                    <input type="checkbox" id="two" value="1500">
-                    <label class="custom-checkbox" for="two"> Ventilated Brick </label>
-                    <input type="checkbox" id="three" value="2000">
-                    <label class="custom-checkbox" for="three"> Wood </label>
-                    <input type="checkbox" id="four" value="2500">
-                    <label class="custom-checkbox" for="four"> Prefabricated </label>
-                    </div>
-                    <!-- end form-group -->
-                    <div class="form-group col-12">
-                    <div class="info-box"> <i class="lni lni-checkmark-circle"></i> Explore Cheatsheet to Start Using With Your Projects. </div>
-                    <!-- end info-box -->
-                    <div class="price-box"> <small>Estimated Price :</small> <span>$ <b id="result">0</b></span> </div>
-                    <!-- end price-box --> 
-                    </div>
-                    <!-- end form-group --> 
-                </div>
-                <!-- end form row -->
-                </form>
-                <!-- end mortgage-form --> 
-            </div>
-            <!-- end col-9 --> 
-            </div>
-            <!-- end row --> 
-        </div>
-        <!-- end container --> 
-        </section>
+        
         <!-- end content-section -->
         <section class="content-section">
         <div class="container">
@@ -632,24 +535,7 @@
         <!-- end container --> 
         </section>
         <!-- end content-section -->
-        <section class="footer-bar">
-        <div class="container">
-            <div class="row">
-            <div class="col-12">
-                <figure class="logo"> <img src="/template/images/smplogorev.png" alt="Image"> </figure>
-                <h2>Live <b>better</b> and <b>beautiful</b></h2>
-                <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
-                <div class="sales-representive">
-                <figure> <img src="/template/images/author01.jpg" alt="Image"> </figure>
-                Sales representative <b>+1 (850) 344 0 66 #20</b> free call ! </div>
-                <!-- end sales-representive --> 
-            </div>
-            <!-- end col-12  --> 
-            </div>
-            <!-- end row --> 
-        </div>
-        <!-- end container --> 
-        </section>
+        
 </div> 
 
 </template>

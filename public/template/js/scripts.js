@@ -60,9 +60,10 @@
           }
         } else {
           $('.page-transition').toggleClass("active");
-          setTimeout(function () {
-            window.location = url;
-          }, 1000);
+          window.location = url;
+          // setTimeout(function () {
+            
+          // }, 1000);
         }
       }
     });

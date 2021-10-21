@@ -429,7 +429,7 @@ a:hover {
   -webkit-transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  background: #151f6d;
+  background: #b3b3b3;
   background-image: url("../images/header-pattern.png");
   background-position: center;
   background-size: cover;
@@ -448,7 +448,7 @@ a:hover {
   margin-bottom: 40px;
 }
 .side-widget .logo img {
-  height: 70px;
+  height: 120px;
 }
 .side-widget .show-mobile {
   display: none;
@@ -695,7 +695,7 @@ a:hover {
   margin: 0;
 }
 .navbar .logo a img {
-  height: 70px;
+  height: 7em;
 }
 .navbar .languages {
   display: inline-block;
@@ -876,9 +876,10 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   background-color: #151f6d;
-  background-image: url("../images/header-pattern.png");
-  background-size: cover;
+  background-image: url("../images/header-pattern-2.png");
   position: relative;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .slider .container {
   position: relative;
@@ -1130,6 +1131,8 @@ a:hover {
   display: block;
   padding: 80px 0;
   position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .section-note {
