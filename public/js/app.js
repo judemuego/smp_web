@@ -58886,7 +58886,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]); // front-end-partial
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]); // front-end
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('home-page', __webpack_require__(/*! ./components/frontend/master/Index.vue */ "./resources/js/components/frontend/master/Index.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('header-page', __webpack_require__(/*! ./components/frontend/partial/Header.vue */ "./resources/js/components/frontend/partial/Header.vue")["default"]);

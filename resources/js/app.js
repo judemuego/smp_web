@@ -32,8 +32,7 @@ Vue.use(VueRouter);
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-// front-end-partial
-
+// front-end
 Vue.component('home-page', require('./components/frontend/master/Index.vue').default);
 Vue.component('header-page', require('./components/frontend/partial/Header.vue').default);
 Vue.component('sidebar-page', require('./components/frontend/partial/Sidebar.vue').default);

@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 
+Route::get('/admin', function () { return view('backend.master.index'); });
+Route::get('/admin/testimonials', function () { return view('backend.pages.testimonials'); });
+
+
+Route::get('/dashboard', function () {
+    return view('backend.pages.dashboard');
+});
+
 Route::get('/{vue?}', function () { return view('frontend.index'); })->where('vue', '[\/\w\.-]*');
 
 Auth::routes();
