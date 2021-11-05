@@ -2,11 +2,12 @@
     <div>
         <header class="page-header">
   <div class="container">
-    <h1>PROJECTS</h1>
-	  <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+    <h1 style="font-size: 5vw !important;">Kynarano Resources Inc</h1>
+	  <h6>Three-Storey Residence</h6>
 	  <ul>
-	  	<li><a href="#">HOME</a></li>
-	  	<li>PROJECTS</li>
+	  	<li><a href="/">HOME</a></li>
+	  	<li><a href="/projects">PROJECTS</a></li>
+      <li>Kynarano Resources Inc</li>
 	  </ul>
   </div>
   <!-- end container --> 
@@ -16,13 +17,13 @@
 	 <div class="swiper-container project-slider">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <figure class="project-box"> <a href="#"><img src="/template/images/slide02.jpg" alt="Image"></a>
+        <figure class="project-box"> <a href="#"><img src="/template/images/slide01.jpg" alt="Image"></a>
           
         </figure>
       </div>
       <!-- end swiper-slide -->
       <div class="swiper-slide">
-        <figure class="project-box"> <a href="#"><img src="/template/images/slide03.jpg" alt="Image"></a>
+        <figure class="project-box"> <a href="#"><img src="/template/images/slide01.jpg" alt="Image"></a>
           
         </figure>
       </div>
@@ -44,8 +45,8 @@
 	<div class="container">
     <div class="row align-items-center">
 	  <div class="col-lg-5">
-		  <h3><strong>Life Science Center</strong></h3>
-			<p>At <u>Consto Construction</u> our team specializing in building repurposing, or adaptive reuse, respects the history of a building and believes in letting a structure’s story help determine its future. </p>
+		  <h3><strong>Three-Storey Residence</strong></h3>
+			<p>At <u>SMP Construction</u> our team specializing in building repurposing, or adaptive reuse, respects the history of a building and believes in letting a structure’s story help determine its future. </p>
 			<p>From vacant historic warehouses to <strong>luxury boutique</strong> hotels and event venues, when it comes to the talent of this group the possibilities are endless. And they aren’t just focused on the end result, they are focused on doing what is right every single step of the way.</p>
 		</div>
 		<!-- end col-5 -->
@@ -54,31 +55,27 @@
 				<table width="100%" cellpadding="0" cellspacing="0">
 					<tr>
 						<td>LOCATION</td>
-						<td>United States</td>
+						<td>White Plains, Quezon City</td>
 					</tr>
 					<tr>
 						<td>CLIENT</td>
-						<td>The University Of North Carolina</td>
+						<td>KYNARANO RESOURCES, Inc</td>
 					</tr>
 					<tr>
-						<td>ENGINEER</td>
-						<td>EK. Fox & Asscoiates LTD.</td>
-					</tr>
-					<tr>
-						<td>ARCHITEXT</td>
-						<td>Southerland Page LLP</td>
+						<td>DESIGN ARCHITECT</td>
+						<td>Arch. AVERY T. GO</td>
 					</tr>
 					<tr>
 						<td>SCOPE</td>
-						<td>691 total pieces including spandreal panels</td>
+						<td>Construction Services</td>
 					</tr>
 					<tr>
 						<td>COMPLETED</td>
-						<td>2020</td>
+						<td>November 2012 - May 2014</td>
 					</tr>
 					<tr>
 						<td>SIZE </td>
-						<td>158.000 sq feet</td>
+						<td>550 sq. m floor area</td>
 					</tr>
 				</table>
 			</div>

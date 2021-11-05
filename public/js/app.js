@@ -38383,12 +38383,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("header", { staticClass: "page-header" }, [
       _c("div", { staticClass: "container" }, [
-        _c("h1", [_vm._v("ABOUT COMPANY")]),
+        _c("h1", [_vm._v("ABOUT SMP")]),
         _vm._v(" "),
         _c("h6", [
-          _vm._v(
-            "Small Programs Perfect For Beginners To Get Started With Personal Growth"
-          )
+          _vm._v("SMP Construction Corporation History and Information")
         ]),
         _vm._v(" "),
         _c("ul", [
@@ -38411,9 +38409,9 @@ var staticRenderFns = [
               _c("h6", [_vm._v("OUR HISTORY")]),
               _vm._v(" "),
               _c("h2", [
-                _vm._v("American Construction"),
+                _vm._v("SMP Construction"),
                 _c("br"),
-                _vm._v(" Services Company in 1990's")
+                _vm._v(" Coporation in 2010's")
               ])
             ])
           ]),
@@ -39427,9 +39425,9 @@ var staticRenderFns = [
                 _c("h6", [_vm._v("Phones")]),
                 _vm._v(" "),
                 _c("p", [
-                  _vm._v("+1 (850) 344 0 66 "),
+                  _vm._v("0977 462 1712 "),
                   _c("br"),
-                  _vm._v("Dial #20")
+                  _vm._v("0922 366 2037")
                 ])
               ])
             ]),
@@ -39449,7 +39447,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("p", [
                   _c("a", { attrs: { href: "#" } }, [
-                    _vm._v("info@smpconstruction.com")
+                    _vm._v("inquiry@smpcc.co")
                   ]),
                   _c("br"),
                   _vm._v("for all purpose")
@@ -39515,7 +39513,7 @@ var staticRenderFns = [
           staticClass: "google-maps",
           attrs: {
             src:
-              "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2280.946732017157!2d6.139779638725402!3d46.19997236441594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c652ab04e9aaf%3A0xf17a439abec4708d!2sSkatepark%20of%20Plainpalais!5e0!3m2!1str!2str!4v1592672296075!5m2!1str!2str",
+              "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1623.2041219857115!2d121.09161009748455!3d14.618901939186438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b91420afebb5%3A0xc844d1aee10b484f!2sSMP%20Construction%20Corp.!5e0!3m2!1sen!2sph!4v1636105357915!5m2!1sen!2sph",
             frameborder: "0",
             allowfullscreen: "",
             "aria-hidden": "false",
@@ -39870,20 +39868,16 @@ var staticRenderFns = [
                 "span",
                 {
                   staticClass: "odometer",
-                  attrs: { "data-count": "33", "data-status": "yes" }
+                  attrs: { "data-count": "114", "data-status": "yes" }
                 },
-                [_vm._v("0")]
+                [_vm._v("114")]
               ),
               _vm._v(" "),
-              _c("span", { staticClass: "value" }, [_vm._v("%")]),
+              _c("span", { staticClass: "value" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("Figure Sample One")]),
+              _c("h6", [_vm._v("High-End Residential Projects")]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                )
-              ])
+              _c("p", [_vm._v("Completed Projects")])
             ])
           ]),
           _vm._v(" "),
@@ -39893,20 +39887,16 @@ var staticRenderFns = [
                 "span",
                 {
                   staticClass: "odometer",
-                  attrs: { "data-count": "2021", "data-status": "yes" }
+                  attrs: { "data-count": "38", "data-status": "yes" }
                 },
-                [_vm._v("0")]
+                [_vm._v("38")]
               ),
               _vm._v(" "),
-              _c("span", { staticClass: "value" }, [_vm._v("#")]),
+              _c("span", { staticClass: "value" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("Figure Sample Two")]),
+              _c("h6", [_vm._v("Mid-Cost Residential Projects")]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                )
-              ])
+              _c("p", [_vm._v("Completed Projects")])
             ])
           ]),
           _vm._v(" "),
@@ -39916,20 +39906,16 @@ var staticRenderFns = [
                 "span",
                 {
                   staticClass: "odometer",
-                  attrs: { "data-count": "247", "data-status": "yes" }
+                  attrs: { "data-count": "35", "data-status": "yes" }
                 },
-                [_vm._v("0")]
+                [_vm._v("35")]
               ),
               _vm._v(" "),
-              _c("span", { staticClass: "value" }, [_vm._v("m²")]),
+              _c("span", { staticClass: "value" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("Figure Sample Three")]),
+              _c("h6", [_vm._v("Commercial Projects")]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                )
-              ])
+              _c("p", [_vm._v("Completed Projects")])
             ])
           ]),
           _vm._v(" "),
@@ -39939,22 +39925,79 @@ var staticRenderFns = [
                 "span",
                 {
                   staticClass: "odometer",
-                  attrs: { "data-count": "529", "data-status": "yes" }
+                  attrs: { "data-count": "8", "data-status": "yes" }
                 },
-                [_vm._v("0")]
+                [_vm._v("8")]
               ),
               _vm._v(" "),
-              _c("span", { staticClass: "value" }, [_vm._v("+")]),
+              _c("span", { staticClass: "value" }),
               _vm._v(" "),
-              _c("h6", [_vm._v("Figure Sample Four")]),
+              _c("h6", [_vm._v("Warehouse & Factories")]),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-                )
-              ])
+              _c("p", [_vm._v("Completed Projects")])
             ])
           ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "3", "data-status": "yes" }
+                },
+                [_vm._v("3")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Churches")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "2", "data-status": "yes" }
+                },
+                [_vm._v("2")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Mausoleums")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "55", "data-status": "yes" }
+                },
+                [_vm._v("55")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Interior Fit-out")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" })
         ])
       ])
     ])
@@ -40673,7 +40716,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
+              "Our diverse portfolio represents decades of construction experience."
             )
           ]),
           _vm._v(" "),
@@ -40723,13 +40766,15 @@ var staticRenderFns = [
                       })
                     ]),
                     _vm._v(" "),
-                    _c("figcaption", [_c("h5", [_vm._v("Quark Life Homes")])])
+                    _c("figcaption", [
+                      _c("h5", [_vm._v("Kynarano Resources Inc")])
+                    ])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "two" }, [
                   _c("figure", { staticClass: "project-box" }, [
-                    _c("a", { attrs: { href: "/single-project" } }, [
+                    _c("a", { attrs: { href: "/single-project-2" } }, [
                       _c("img", {
                         attrs: {
                           src: "/template/images/slide02.jpg",
@@ -40738,15 +40783,13 @@ var staticRenderFns = [
                       })
                     ]),
                     _vm._v(" "),
-                    _c("figcaption", [
-                      _c("h5", [_vm._v("River Life Residence")])
-                    ])
+                    _c("figcaption", [_c("h5", [_vm._v("Tongco Residence")])])
                   ])
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "three" }, [
                   _c("figure", { staticClass: "project-box" }, [
-                    _c("a", { attrs: { href: "/single-project" } }, [
+                    _c("a", { attrs: { href: "/single-project-3" } }, [
                       _c("img", {
                         attrs: {
                           src: "/template/images/slide03.jpg",
@@ -40755,9 +40798,7 @@ var staticRenderFns = [
                       })
                     ]),
                     _vm._v(" "),
-                    _c("figcaption", [
-                      _c("h5", [_vm._v("Orgue Shopping Mall")])
-                    ])
+                    _c("figcaption", [_c("h5", [_vm._v("Robato Residence")])])
                   ])
                 ]),
                 _vm._v(" "),
@@ -40879,9 +40920,7 @@ var staticRenderFns = [
           _c("h1", [_vm._v("SERVICES")]),
           _vm._v(" "),
           _c("h6", [
-            _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
-            )
+            _vm._v("SMP Construction services we offer to our valued clients")
           ]),
           _vm._v(" "),
           _c("ul", [
@@ -41422,18 +41461,20 @@ var staticRenderFns = [
     return _c("div", [
       _c("header", { staticClass: "page-header" }, [
         _c("div", { staticClass: "container" }, [
-          _c("h1", [_vm._v("PROJECTS")]),
-          _vm._v(" "),
-          _c("h6", [
-            _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
-            )
+          _c("h1", { staticStyle: { "font-size": "5vw !important" } }, [
+            _vm._v("Kynarano Resources Inc")
           ]),
           _vm._v(" "),
+          _c("h6", [_vm._v("Three-Storey Residence")]),
+          _vm._v(" "),
           _c("ul", [
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("HOME")])]),
+            _c("li", [_c("a", { attrs: { href: "/" } }, [_vm._v("HOME")])]),
             _vm._v(" "),
-            _c("li", [_vm._v("PROJECTS")])
+            _c("li", [
+              _c("a", { attrs: { href: "/projects" } }, [_vm._v("PROJECTS")])
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Kynarano Resources Inc")])
           ])
         ])
       ]),
@@ -41445,7 +41486,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
                   })
                 ])
               ])
@@ -41455,7 +41496,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "project-box" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
                   })
                 ])
               ])
@@ -41480,11 +41521,11 @@ var staticRenderFns = [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row align-items-center" }, [
             _c("div", { staticClass: "col-lg-5" }, [
-              _c("h3", [_c("strong", [_vm._v("Life Science Center")])]),
+              _c("h3", [_c("strong", [_vm._v("Three-Storey Residence")])]),
               _vm._v(" "),
               _c("p", [
                 _vm._v("At "),
-                _c("u", [_vm._v("Consto Construction")]),
+                _c("u", [_vm._v("SMP Construction")]),
                 _vm._v(
                   " our team specializing in building repurposing, or adaptive reuse, respects the history of a building and believes in letting a structure’s story help determine its future. "
                 )
@@ -41510,45 +41551,953 @@ var staticRenderFns = [
                     _c("tr", [
                       _c("td", [_vm._v("LOCATION")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("United States")])
+                      _c("td", [_vm._v("White Plains, Quezon City")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
                       _c("td", [_vm._v("CLIENT")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("The University Of North Carolina")])
+                      _c("td", [_vm._v("KYNARANO RESOURCES, Inc")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
-                      _c("td", [_vm._v("ENGINEER")]),
+                      _c("td", [_vm._v("DESIGN ARCHITECT")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("EK. Fox & Asscoiates LTD.")])
-                    ]),
-                    _vm._v(" "),
-                    _c("tr", [
-                      _c("td", [_vm._v("ARCHITEXT")]),
-                      _vm._v(" "),
-                      _c("td", [_vm._v("Southerland Page LLP")])
+                      _c("td", [_vm._v("Arch. AVERY T. GO")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
                       _c("td", [_vm._v("SCOPE")]),
                       _vm._v(" "),
-                      _c("td", [
-                        _vm._v("691 total pieces including spandreal panels")
-                      ])
+                      _c("td", [_vm._v("Construction Services")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
                       _c("td", [_vm._v("COMPLETED")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("2020")])
+                      _c("td", [_vm._v("November 2012 - May 2014")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
                       _c("td", [_vm._v("SIZE ")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("158.000 sq feet")])
+                      _c("td", [_vm._v("550 sq. m floor area")])
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "section-title text-left" }, [
+                _c("h6", [_vm._v("COMMUNITY QUIESTIONS")]),
+                _vm._v(" "),
+                _c("h2", [
+                  _vm._v("We offer commitment at all "),
+                  _c("br"),
+                  _vm._v("building projects")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "accordion",
+                  attrs: { id: "accordion", role: "tablist" }
+                },
+                [
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingOne" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseOne",
+                              "aria-expanded": "true",
+                              "aria-controls": "collapseOne"
+                            }
+                          },
+                          [
+                            _vm._v("Dedication to client satisfaction "),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse show",
+                        attrs: {
+                          id: "collapseOne",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingOne",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingTwo" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseTwo",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseTwo"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I find credit and bond ratings for a particular company? "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseTwo",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingTwo",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingThree" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseThree",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseThree"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I get access to Custom properties? "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseThree",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingThree",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingFour" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseFour",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseFour"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I find the Wall Street Journal - today's and historical "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseFour",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingFour",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "info-box-dark" }, [
+                _c("h6", [_vm._v("INFO BOX")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Anim pariatur cliche "),
+                  _c("strong", [_vm._v("reprehenderit")]),
+                  _vm._v(
+                    ", enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla "
+                  ),
+                  _c("u", [_vm._v("assumenda")]),
+                  _vm._v(" shoreditch et. ")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "section",
+        {
+          staticClass: "content-section no-spacing white-space-top",
+          attrs: { "data-background": "/template/images/section-bg02.jpg" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-8" }, [
+                _c("div", { staticClass: "cta-box-yellow" }, [
+                  _c("h4", [
+                    _vm._v("The first thing we build is relationships")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. Led all cottage met enabled attempt through talking delight. Dare he feet my tell busy. Considered imprudence of he friendship boisterous."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("GET AN ESTIMATE")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("header", { staticClass: "page-header" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticStyle: { "font-size": "5vw !important" } }, [
+            _vm._v("Tongco Residence")
+          ]),
+          _vm._v(" "),
+          _c("h6", [_vm._v("Three-Storey Residence with Basement")]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_c("a", { attrs: { href: "/" } }, [_vm._v("HOME")])]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/projects" } }, [_vm._v("PROJECTS")])
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Tongco Residence")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section no-bottom-spacing" }, [
+        _c("div", { staticClass: "swiper-container project-slider" }, [
+          _c("div", { staticClass: "swiper-wrapper" }, [
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "swiper-pagination" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row align-items-center" }, [
+            _c("div", { staticClass: "col-lg-5" }, [
+              _c("h3", [_c("strong", [_vm._v("Tongco Residence")])]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("At "),
+                _c("u", [_vm._v("SMP Construction")]),
+                _vm._v(
+                  " our team specializing in building repurposing, or adaptive reuse, respects the history of a building and believes in letting a structure’s story help determine its future. "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("From vacant historic warehouses to "),
+                _c("strong", [_vm._v("luxury boutique")]),
+                _vm._v(
+                  " hotels and event venues, when it comes to the talent of this group the possibilities are endless. And they aren’t just focused on the end result, they are focused on doing what is right every single step of the way."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-7" }, [
+              _c("div", { staticClass: "project-specifications" }, [
+                _c(
+                  "table",
+                  {
+                    attrs: { width: "100%", cellpadding: "0", cellspacing: "0" }
+                  },
+                  [
+                    _c("tr", [
+                      _c("td", [_vm._v("LOCATION")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("McKinley Hills, Taguig City")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("CLIENT")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Tongco Residence")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("DESIGN ARCHITECT")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Arch. ROBERTSON LEE")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("SCOPE")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Construction Services")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("COMPLETED")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("November 2015 - November 2017")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("SIZE ")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("500 sq. m floor area")])
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "section-title text-left" }, [
+                _c("h6", [_vm._v("COMMUNITY QUIESTIONS")]),
+                _vm._v(" "),
+                _c("h2", [
+                  _vm._v("We offer commitment at all "),
+                  _c("br"),
+                  _vm._v("building projects")
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-8" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "accordion",
+                  attrs: { id: "accordion", role: "tablist" }
+                },
+                [
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingOne" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseOne",
+                              "aria-expanded": "true",
+                              "aria-controls": "collapseOne"
+                            }
+                          },
+                          [
+                            _vm._v("Dedication to client satisfaction "),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse show",
+                        attrs: {
+                          id: "collapseOne",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingOne",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingTwo" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseTwo",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseTwo"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I find credit and bond ratings for a particular company? "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseTwo",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingTwo",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingThree" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseThree",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseThree"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I get access to Custom properties? "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseThree",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingThree",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "card-header",
+                        attrs: { role: "tab", id: "headingFour" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "collapsed",
+                            attrs: {
+                              "data-toggle": "collapse",
+                              href: "#collapseFour",
+                              "aria-expanded": "false",
+                              "aria-controls": "collapseFour"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              " Where can I find the Wall Street Journal - today's and historical "
+                            ),
+                            _c("i", { staticClass: "lni lni-arrow-right" })
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "collapse",
+                        attrs: {
+                          id: "collapseFour",
+                          role: "tabpanel",
+                          "aria-labelledby": "headingFour",
+                          "data-parent": "#accordion"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "card-body" }, [
+                          _vm._v(
+                            " Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "info-box-dark" }, [
+                _c("h6", [_vm._v("INFO BOX")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("Anim pariatur cliche "),
+                  _c("strong", [_vm._v("reprehenderit")]),
+                  _vm._v(
+                    ", enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla "
+                  ),
+                  _c("u", [_vm._v("assumenda")]),
+                  _vm._v(" shoreditch et. ")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "section",
+        {
+          staticClass: "content-section no-spacing white-space-top",
+          attrs: { "data-background": "/template/images/section-bg02.jpg" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-8" }, [
+                _c("div", { staticClass: "cta-box-yellow" }, [
+                  _c("h4", [
+                    _vm._v("The first thing we build is relationships")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. Led all cottage met enabled attempt through talking delight. Dare he feet my tell busy. Considered imprudence of he friendship boisterous."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("GET AN ESTIMATE")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("header", { staticClass: "page-header" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", { staticStyle: { "font-size": "5vw !important" } }, [
+            _vm._v("Robato Residence")
+          ]),
+          _vm._v(" "),
+          _c("h6", [_vm._v("Three-Storey Residence with Basement")]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_c("a", { attrs: { href: "/" } }, [_vm._v("HOME")])]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/projects" } }, [_vm._v("PROJECTS")])
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Robato Residence")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section no-bottom-spacing" }, [
+        _c("div", { staticClass: "swiper-container project-slider" }, [
+          _c("div", { staticClass: "swiper-wrapper" }, [
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/template/images/slide03-1.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/template/images/slide03-2.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/template/images/slide03-3.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/template/images/slide03-4.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "swiper-pagination" })
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row align-items-center" }, [
+            _c("div", { staticClass: "col-lg-5" }, [
+              _c("h3", [_c("strong", [_vm._v("Robato Residence")])]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("At "),
+                _c("u", [_vm._v("SMP Construction")]),
+                _vm._v(
+                  " our team specializing in building repurposing, or adaptive reuse, respects the history of a building and believes in letting a structure’s story help determine its future. "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("From vacant historic warehouses to "),
+                _c("strong", [_vm._v("luxury boutique")]),
+                _vm._v(
+                  " hotels and event venues, when it comes to the talent of this group the possibilities are endless. And they aren’t just focused on the end result, they are focused on doing what is right every single step of the way."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-7" }, [
+              _c("div", { staticClass: "project-specifications" }, [
+                _c(
+                  "table",
+                  {
+                    attrs: { width: "100%", cellpadding: "0", cellspacing: "0" }
+                  },
+                  [
+                    _c("tr", [
+                      _c("td", [_vm._v("LOCATION")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("McKinley Hills, Taguig City")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("CLIENT")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Robato Residence")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("DESIGN ARCHITECT")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Arch. HENRY NG TAN")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("SCOPE")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("Construction Services")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("COMPLETED")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("May 2017 - January 2020")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("SIZE ")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("600 sq. m floor area")])
                     ])
                   ]
                 )
@@ -41874,7 +42823,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
+              "SMP Construction's business development promise to our clients"
             )
           ]),
           _vm._v(" "),
@@ -42049,7 +42998,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
+              "We've built our company with the foundation of our Core Values"
             )
           ]),
           _vm._v(" "),
@@ -42318,7 +43267,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
+              "Meet the backbone of SMP Construction and the people behind our success"
             )
           ]),
           _vm._v(" "),
@@ -42802,10 +43751,195 @@ var staticRenderFns = [
         _c("div", { staticClass: "container" }, [
           _c("h1", [_vm._v("OUR HISTORY")]),
           _vm._v(" "),
+          _c("h6", [_vm._v("The story of our company's growth and succees")]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("HOME")])]),
+            _vm._v(" "),
+            _c("li", [_vm._v("OUR HISTORY")])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "section-title" }, [
+                _c("h6", [_vm._v("BACKBONE OF CONSTO")]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Our Long History")])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "our-history" }, [
+          _c("div", { staticClass: "swiper-wrapper" }, [
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("April 2010")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("June 2011")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("September 2012")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("February 2013")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("November 2017")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("November 2018")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("b", [_vm._v("March 2020")]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "We know our customers are real people with specific goals and unique preferences."
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "swiper-pagination" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "controls" }, [
+            _c("div", { staticClass: "button-prev" }, [
+              _c("i", { staticClass: "lni lni-arrow-left" })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "button-next" }, [
+              _c("i", { staticClass: "lni lni-arrow-right" })
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("header", { staticClass: "page-header" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h1", [_vm._v("OUR Logo")]),
+          _vm._v(" "),
           _c("h6", [
-            _vm._v(
-              "Small Programs Perfect For Beginners To Get Started With Personal Growth"
-            )
+            _vm._v("Know the representation and meaning behind our logo ")
           ]),
           _vm._v(" "),
           _c("ul", [
@@ -42996,7 +44130,7 @@ var staticRenderFns = [
               _c("figure", { staticClass: "logo" }, [
                 _c("img", {
                   attrs: {
-                    src: "/template/images/smplogorev.png",
+                    src: "/template/images/logo_vertical.png",
                     alt: "Image"
                   }
                 })
@@ -43024,7 +44158,7 @@ var staticRenderFns = [
                   })
                 ]),
                 _vm._v("\r\n                Sales representative "),
-                _c("b", [_vm._v("+1 (850) 344 0 66 #20")]),
+                _c("b", [_vm._v("0977 462 1712 / 0922 366 2037")]),
                 _vm._v(" free call ! ")
               ])
             ])
@@ -43049,14 +44183,18 @@ var staticRenderFns = [
                   _vm._v("\r\n                Pasig City")
                 ]),
                 _vm._v(" "),
-                _c("p", [_vm._v("+1 (850) 344 0 66 #20")]),
+                _c("p", [
+                  _vm._v("0977 462 1712 "),
+                  _c("br"),
+                  _vm._v(" 0922 366 2037")
+                ]),
                 _vm._v(" "),
                 _c(
                   "a",
                   {
                     attrs: {
                       href:
-                        "https://www.google.com/maps/search/?api=1&query=centurylink+field",
+                        "https://www.google.com/maps/search/?api=1&query=SMP+Construction+Corp.",
                       "data-fancybox": "",
                       "data-width": "640",
                       "data-height": "360"
@@ -43081,14 +44219,18 @@ var staticRenderFns = [
                   _vm._v("\r\n                Pasig City")
                 ]),
                 _vm._v(" "),
-                _c("p", [_vm._v("+1 (850) 344 0 66 #20")]),
+                _c("p", [
+                  _vm._v("0977 462 1712 "),
+                  _c("br"),
+                  _vm._v(" 0922 366 2037")
+                ]),
                 _vm._v(" "),
                 _c(
                   "a",
                   {
                     attrs: {
                       href:
-                        "https://www.google.com/maps/search/?api=1&query=centurylink+field",
+                        "https://www.google.com/maps/search/?api=1&query=SMP+Construction+Corp.",
                       "data-fancybox": "",
                       "data-width": "640",
                       "data-height": "360"
@@ -43378,7 +44520,11 @@ var staticRenderFns = [
               _vm._v("Pasig City")
             ]),
             _vm._v(" "),
-            _c("p", [_vm._v("+1 (850) 344 0 66 #20")])
+            _c("p", [
+              _vm._v("0977 462 1712 "),
+              _c("br"),
+              _vm._v(" 0922 366 2037")
+            ])
           ]),
           _vm._v(" "),
           _c("h6", { staticClass: "widget-title" }, [_vm._v("FOLLOW US")]),
@@ -43471,7 +44617,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("small", [_vm._v("© 2020 SMP | Construction Corporation")])
+        _c("small", [_vm._v("© 2021 SMP | Construction Corporation")])
       ])
     ])
   }
@@ -58965,6 +60111,8 @@ var frontend = {
   services: __webpack_require__(/*! ./components/frontend/pages/Services.vue */ "./resources/js/components/frontend/pages/Services.vue")["default"],
   projects: __webpack_require__(/*! ./components/frontend/pages/Projects.vue */ "./resources/js/components/frontend/pages/Projects.vue")["default"],
   singleproject: __webpack_require__(/*! ./components/frontend/pages/SingleProject.vue */ "./resources/js/components/frontend/pages/SingleProject.vue")["default"],
+  singleproject2: __webpack_require__(/*! ./components/frontend/pages/SingleProject2.vue */ "./resources/js/components/frontend/pages/SingleProject2.vue")["default"],
+  singleproject3: __webpack_require__(/*! ./components/frontend/pages/SingleProject3.vue */ "./resources/js/components/frontend/pages/SingleProject3.vue")["default"],
   about: __webpack_require__(/*! ./components/frontend/pages/About.vue */ "./resources/js/components/frontend/pages/About.vue")["default"],
   contact: __webpack_require__(/*! ./components/frontend/pages/Contact.vue */ "./resources/js/components/frontend/pages/Contact.vue")["default"],
   certificates: __webpack_require__(/*! ./components/frontend/pages/smp/Certificates.vue */ "./resources/js/components/frontend/pages/smp/Certificates.vue")["default"],
@@ -59435,6 +60583,112 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/frontend/pages/SingleProject2.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/SingleProject2.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SingleProject2.vue?vue&type=template&id=3596e0e4& */ "./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/pages/SingleProject2.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./SingleProject2.vue?vue&type=template&id=3596e0e4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/SingleProject2.vue?vue&type=template&id=3596e0e4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject2_vue_vue_type_template_id_3596e0e4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/SingleProject3.vue":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/SingleProject3.vue ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SingleProject3.vue?vue&type=template&id=357ab1e2& */ "./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/frontend/pages/SingleProject3.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./SingleProject3.vue?vue&type=template&id=357ab1e2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/SingleProject3.vue?vue&type=template&id=357ab1e2&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SingleProject3_vue_vue_type_template_id_357ab1e2___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/frontend/pages/smp/Certificates.vue":
 /*!*********************************************************************!*\
   !*** ./resources/js/components/frontend/pages/smp/Certificates.vue ***!
@@ -59656,17 +60910,18 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-var render, staticRenderFns
+/* harmony import */ var _OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OurLogo.vue?vue&type=template&id=2847c641& */ "./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 var script = {}
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
   script,
-  render,
-  staticRenderFns,
+  _OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -59674,8 +60929,28 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
   
 )
 
+/* hot reload */
+if (false) { var api; }
 component.options.__file = "resources/js/components/frontend/pages/smp/OurLogo.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./OurLogo.vue?vue&type=template&id=2847c641& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/smp/OurLogo.vue?vue&type=template&id=2847c641&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_OurLogo_vue_vue_type_template_id_2847c641___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -59877,6 +61152,20 @@ __webpack_require__.r(__webpack_exports__);
     component: _component_js__WEBPACK_IMPORTED_MODULE_0__["frontend"].projects,
     meta: {
       title: 'Projects'
+    }
+  }, {
+    path: '/single-project-2',
+    name: 'single-project-2',
+    component: _component_js__WEBPACK_IMPORTED_MODULE_0__["frontend"].singleproject2,
+    meta: {
+      title: 'Single Project 2'
+    }
+  }, {
+    path: '/single-project-3',
+    name: 'single-project-3',
+    component: _component_js__WEBPACK_IMPORTED_MODULE_0__["frontend"].singleproject3,
+    meta: {
+      title: 'Single Project 3'
     }
   }, {
     path: '/single-project',

@@ -9,6 +9,8 @@ export default{
         { path: '/',                                    name: 'home',                            component: frontend.home,                            meta: { title: 'Home' }},
         { path: '/services',                            name: 'services',                        component: frontend.services,                        meta: { title: 'Services' }},
         { path: '/projects',                            name: 'projects',                        component: frontend.projects,                        meta: { title: 'Projects' }},
+        { path: '/single-project-2',                    name: 'single-project-2',                component: frontend.singleproject2,                  meta: { title: 'Single Project 2' }},
+        { path: '/single-project-3',                    name: 'single-project-3',                component: frontend.singleproject3,                  meta: { title: 'Single Project 3' }},
         { path: '/single-project',                      name: 'single-project',                  component: frontend.singleproject,                   meta: { title: 'Single Project' }},
         { path: '/about',                               name: 'about',                           component: frontend.about,                           meta: { title: 'About' }},
         { path: '/contact',                             name: 'contact',                         component: frontend.contact,                         meta: { title: 'Contact' }},

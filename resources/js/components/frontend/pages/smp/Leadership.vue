@@ -3,7 +3,7 @@
         <header class="page-header">
   <div class="container">
     <h1>LEADERSHIP</h1>
-	  <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+	  <h6>Meet the backbone of SMP Construction and the people behind our success</h6>
 	  <ul>
 	  	<li><a href="#">HOME</a></li>
 	  	<li>LEADERSHIP</li>

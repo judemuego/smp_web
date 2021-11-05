@@ -3,7 +3,7 @@
         <header class="page-header">
             <div class="container">
                 <h1>OUR HISTORY</h1>
-                <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+                <h6>The story of our company's growth and succees</h6>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li>OUR HISTORY</li>

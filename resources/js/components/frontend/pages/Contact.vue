@@ -30,7 +30,7 @@
         <div class="contact-box"> 
 			<figure><img src="/template/images/icon-phone.png" alt="Image"></figure>
           <h6>Phones</h6>
-           <p>+1 (850) 344 0 66 <br>Dial #20</p>
+           <p>0977 462 1712 <br>0922 366 2037</p>
         </div>
         <!-- end contact-box --> 
       </div>
@@ -39,7 +39,7 @@
         <div class="contact-box"> 	
 			<figure><img src="/template/images/icon-email.png" alt="Image"></figure>
           <h6>Write Us</h6>
-          <p><a href="#">info@smpconstruction.com</a><br>for all purpose</p>
+          <p><a href="#">inquiry@smpcc.co</a><br>for all purpose</p>
         </div>
         <!-- end contact-box --> 
       </div>
@@ -99,7 +99,8 @@
 </section>
 <!-- end content-section -->
 		<section class="content-section no-spacing">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2280.946732017157!2d6.139779638725402!3d46.19997236441594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c652ab04e9aaf%3A0xf17a439abec4708d!2sSkatepark%20of%20Plainpalais!5e0!3m2!1str!2str!4v1592672296075!5m2!1str!2str" frameborder="0" class="google-maps" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1623.2041219857115!2d121.09161009748455!3d14.618901939186438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b91420afebb5%3A0xc844d1aee10b484f!2sSMP%20Construction%20Corp.!5e0!3m2!1sen!2sph!4v1636105357915!5m2!1sen!2sph" frameborder="0" class="google-maps" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.649816130506!2d121.08896111484046!3d14.619013789790774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b91420afebb5%3A0xc844d1aee10b484f!2sSMP%20Construction%20Corp.!5e0!3m2!1sen!2sph!4v1636105312033!5m2!1sen!2sph"  ></iframe> -->
 </section>
     </div>
 </template>

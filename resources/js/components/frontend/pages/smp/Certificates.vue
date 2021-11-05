@@ -3,7 +3,7 @@
         <header class="page-header">
             <div class="container">
                 <h1>CERTIFICATES</h1>
-                <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+                <h6>SMP Construction's business development promise to our clients</h6>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li>CERTIFICATES</li>

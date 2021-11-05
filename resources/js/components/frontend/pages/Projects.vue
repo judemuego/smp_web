@@ -3,7 +3,7 @@
         <header class="page-header">
   <div class="container">
     <h1>PROJECTS</h1>
-	  <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+	  <h6>Our diverse portfolio represents decades of construction experience.</h6>
 	  <ul>
 	  	<li><a href="#">HOME</a></li>
 	  	<li>PROJECTS</li>
@@ -29,25 +29,25 @@
 				<li class="one">
 				 <figure class="project-box"> <a href="/single-project"><img src="/template/images/slide01.jpg" alt="Image"></a>
           <figcaption>
-            <h5>Quark Life Homes</h5>
+            <h5>Kynarano Resources Inc</h5>
           </figcaption>
         </figure>
 					<!-- end project-box -->
 				</li>
 				<!-- end li -->
 				<li class="two">
-				 <figure class="project-box"> <a href="/single-project"><img src="/template/images/slide02.jpg" alt="Image"></a>
+				 <figure class="project-box"> <a href="/single-project-2"><img src="/template/images/slide02.jpg" alt="Image"></a>
           <figcaption>
-            <h5>River Life Residence</h5>
+            <h5>Tongco Residence</h5>
           </figcaption>
         </figure>
 					<!-- end project-box -->
 				</li>
 				<!-- end li -->
 				<li class="three">
-				 <figure class="project-box"> <a href="/single-project"><img src="/template/images/slide03.jpg" alt="Image"></a>
+				 <figure class="project-box"> <a href="/single-project-3"><img src="/template/images/slide03.jpg" alt="Image"></a>
           <figcaption>
-            <h5>Orgue Shopping Mall</h5>
+            <h5>Robato Residence</h5>
           </figcaption>
         </figure>
 					<!-- end project-box -->

@@ -4,12 +4,12 @@
         <div class="container">
             <div class="row">
             <div class="col-12">
-                <figure class="logo"> <img src="/template/images/smplogorev.png" alt="Image"> </figure>
+                <figure class="logo"> <img src="/template/images/logo_vertical.png" alt="Image"> </figure>
                 <h2>Live <b>better</b> and <b>beautiful</b></h2>
                 <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a>
                 <div class="sales-representive">
                 <figure> <img src="/template/images/author01.jpg" alt="Image"> </figure>
-                Sales representative <b>+1 (850) 344 0 66 #20</b> free call ! </div>
+                Sales representative <b>0977 462 1712 / 0922 366 2037</b> free call ! </div>
                 <!-- end sales-representive --> 
             </div>
             <!-- end col-12  --> 
@@ -27,8 +27,8 @@
                 <p>Lot 14 Block 2, Yakal Street, <br>
                 Agapito Subdivision, Santolan, <br>
                 Pasig City</p>
-                <p>+1 (850) 344 0 66 #20</p>
-                <a href="https://www.google.com/maps/search/?api=1&query=centurylink+field" data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
+                <p>0977 462 1712 <br> 0922 366 2037</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=SMP+Construction+Corp." data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
                 </address>
             </div>
             <!-- end col-4 -->
@@ -38,8 +38,8 @@
                 <p>Lot 14 Block 2, Yakal Street, <br>
                 Agapito Subdivision, Santolan, <br>
                 Pasig City</p>
-                <p>+1 (850) 344 0 66 #20</p>
-                <a href="https://www.google.com/maps/search/?api=1&query=centurylink+field" data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
+                <p>0977 462 1712 <br> 0922 366 2037</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=SMP+Construction+Corp." data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
                 </address>
             </div>
             <!-- end col-4 -->
