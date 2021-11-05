@@ -3,7 +3,7 @@
         <header class="page-header">
   <div class="container">
     <h1>SERVICES</h1>
-    <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+    <h6>SMP Construction services we offer to our valued clients</h6>
     <ul>
       <li><a href="#">HOME</a></li>
       <li>SERVICES</li>

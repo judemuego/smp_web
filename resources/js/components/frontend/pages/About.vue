@@ -2,8 +2,8 @@
     <div>
         <header class="page-header">
   <div class="container">
-    <h1>ABOUT COMPANY</h1>
-	  <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+    <h1>ABOUT SMP</h1>
+	  <h6>SMP Construction Corporation History and Information</h6>
 	  <ul>
 	  	<li><a href="#">HOME</a></li>
 	  	<li>ABOUT COMPANY</li>
@@ -18,7 +18,7 @@
 		<div class="col-12">
 			 <div class="section-title text-left">
           <h6>OUR HISTORY</h6>
-          <h2>American Construction<br> Services Company in 1990's</h2>
+          <h2>SMP Construction<br> Coporation in 2010's</h2>
         </div>
         <!-- end section-title --> 
 		</div>

@@ -3,7 +3,7 @@
         <header class="page-header">
   <div class="container">
     <h1>CORE VALUES</h1>
-	  <h6>Small Programs Perfect For Beginners To Get Started With Personal Growth</h6>
+	  <h6>We've built our company with the foundation of our Core Values</h6>
 	  <ul>
 	  	<li><a href="#">HOME</a></li>
 	  	<li>CORE VALUES</li>

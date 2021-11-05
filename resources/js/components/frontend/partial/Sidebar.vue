@@ -11,7 +11,7 @@
             <p>Lot 14 Block 2, Yakal Street,  <br>
                 Agapito Subdivision, Santolan, 
                 <br>Pasig City</p>
-            <p>+1 (850) 344 0 66 #20</p>
+            <p>0977 462 1712 <br> 0922 366 2037</p>
             </address>
             <h6 class="widget-title">FOLLOW US</h6>
             <ul class="social-media">
@@ -50,7 +50,7 @@
             <!-- end site-menu --> 
             </div>
             <!-- end show-mobile --> 
-            <small>© 2020 SMP | Construction Corporation</small> </div>
+            <small>© 2021 SMP | Construction Corporation</small> </div>
         <!-- end inner --> 
     </aside>
 </template>

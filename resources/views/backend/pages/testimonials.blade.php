@@ -35,9 +35,8 @@
                                 <td>System Architect</td>
                                 <td>Edinburgh</td>
                                 <td class="table-action">
-                                    <a href="#"><i class="align-middle fas fa-fw fa-plus"></i></i></a>
-                                    <a href="#"><i class="align-middle fas fa-fw fa-pen"></i></i></a>
-                                    <a href="#"><i class="align-middle fas fa-fw fa-trash"></i></a>
+                                        <button class="btn btn-primary">Edit</button>
+										<button class="btn btn-danger">Delete</button>
                                 </td>
                             </tr>
                             <tr>
@@ -45,7 +44,6 @@
                                 <td>Accountant</td>
                                 <td>Tokyo</td>
                                 <td class="table-action">
-                                    <a href="#"><i class="align-middle fas fa-fw fa-plus"></i></i></a>
                                     <a href="#"><i class="align-middle fas fa-fw fa-pen"></i></i></a>
                                     <a href="#"><i class="align-middle fas fa-fw fa-trash"></i></a>
                                 </td>
