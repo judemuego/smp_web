@@ -13,6 +13,10 @@ const frontend = {
     ourhistory: require('./components/frontend/pages/smp/OurHistory.vue').default,
     ourlogo: require('./components/frontend/pages/smp/OurLogo.vue').default,
 
+    //website maintenance
+    websitemaintenance: {
+        projects: require('./components/frontend/pages/smp/OurLogo.vue').default,
+    },
 }
 
 export { frontend };

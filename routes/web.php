@@ -17,6 +17,8 @@ Route::get('/', function () {
 
 Route::get('/admin', function () { return view('backend.master.index'); });
 Route::get('/admin/testimonials', function () { return view('backend.pages.testimonials'); });
+Route::get('/admin/website-maintenance', function () { return view('backend.pages.website.projects'); });
+
 
 
 Route::get('/dashboard', function () {

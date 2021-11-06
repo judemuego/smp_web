@@ -273,22 +273,25 @@
                 <!-- end section-title --> 
             </div>
             <!-- end col-12 -->
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>High-End Residential Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
             
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Apartments</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Mid-Cost Residential Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
             
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Flats</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
             
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Villas</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Warehouse & Factories</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
             
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Medical</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Churches</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
             
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Industrial</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Mausoleums</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <!-- end col-4 --> 
+
+            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Interior Fit-Out</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 --> 
             </div>
             <!-- end row --> 

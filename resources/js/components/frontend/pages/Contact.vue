@@ -66,17 +66,17 @@
 	   <form class="contact-form">
 		  	<div class="form-group">
         <span>Full Name</span>
-            <input type="text"></input>
+            <input type="text"/>
         </div>
         <!-- end form-group -->
-            <div class="form-group">
+        <div class="form-group">
           <span>Your E-mail</span>
-            <input type="text"></input>
+            <input type="text"/>
         </div>
         <!-- end form-group -->
-            <div class="form-group">
+        <div class="form-group">
           <span>Subject</span>
-            <input type="text"></input>
+            <input type="text"/>
         </div>
         <!-- end form-group -->
             <div class="form-group">

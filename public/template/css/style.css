@@ -448,7 +448,7 @@ a:hover {
   margin-bottom: 40px;
 }
 .side-widget .logo img {
-  height: 120px;
+  height: 160px;
 }
 .side-widget .show-mobile {
   display: none;
@@ -671,7 +671,7 @@ a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0;
+  padding: 15px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -695,7 +695,7 @@ a:hover {
   margin: 0;
 }
 .navbar .logo a img {
-  height: 7em;
+  height: 9em;
 }
 .navbar .languages {
   display: inline-block;

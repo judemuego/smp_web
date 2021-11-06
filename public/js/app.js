@@ -40127,7 +40127,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Commercial")]),
+              _c("span", [_vm._v("High-End Residential Projects")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -40135,7 +40135,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Apartments")]),
+              _c("span", [_vm._v("Mid-Cost Residential Projects")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -40143,7 +40143,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Flats")]),
+              _c("span", [_vm._v("Commercial Projects")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -40151,7 +40151,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Villas")]),
+              _c("span", [_vm._v("Warehouse & Factories")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -40159,7 +40159,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Medical")]),
+              _c("span", [_vm._v("Churches")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -40167,7 +40167,15 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "col-lg-4 col-md-6" }, [
             _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Industrial")]),
+              _c("span", [_vm._v("Mausoleums")]),
+              _vm._v(" "),
+              _c("i", { staticClass: "lni lni-arrow-right" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
+            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
+              _c("span", [_vm._v("Interior Fit-Out")]),
               _vm._v(" "),
               _c("i", { staticClass: "lni lni-arrow-right" })
             ])
@@ -60119,7 +60127,11 @@ var frontend = {
   corevalues: __webpack_require__(/*! ./components/frontend/pages/smp/CoreValues.vue */ "./resources/js/components/frontend/pages/smp/CoreValues.vue")["default"],
   leadership: __webpack_require__(/*! ./components/frontend/pages/smp/Leadership.vue */ "./resources/js/components/frontend/pages/smp/Leadership.vue")["default"],
   ourhistory: __webpack_require__(/*! ./components/frontend/pages/smp/OurHistory.vue */ "./resources/js/components/frontend/pages/smp/OurHistory.vue")["default"],
-  ourlogo: __webpack_require__(/*! ./components/frontend/pages/smp/OurLogo.vue */ "./resources/js/components/frontend/pages/smp/OurLogo.vue")["default"]
+  ourlogo: __webpack_require__(/*! ./components/frontend/pages/smp/OurLogo.vue */ "./resources/js/components/frontend/pages/smp/OurLogo.vue")["default"],
+  //website maintenance
+  websitemaintenance: {
+    projects: __webpack_require__(/*! ./components/frontend/pages/smp/OurLogo.vue */ "./resources/js/components/frontend/pages/smp/OurLogo.vue")["default"]
+  }
 };
 
 
@@ -61253,8 +61265,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Estaniel Dev\Documents\GitHub\smp_web\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Estaniel Dev\Documents\GitHub\smp_web\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\smp\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\smp\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
