@@ -405,7 +405,7 @@
             <div class="col-12">
                 <div class="testimonials-slider">
                 <div class="swiper-wrapper">
-                    <div  v-for="testimonial in testimonials" :key="testimonial.id" class="swiper-slide">
+                    <div v-for="testimonial in testimonials" :key="testimonial.id" class="swiper-slide">
                     <div class="testimonial">
                         <p>{{testimonial.testimonial}}</p>
                         <i class="lni lni-quotation"></i>
