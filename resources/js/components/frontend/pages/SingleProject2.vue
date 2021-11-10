@@ -55,7 +55,7 @@
 				<table width="100%" cellpadding="0" cellspacing="0">
 					<tr>
 						<td>LOCATION</td>
-						<td>McKinley Hills, Taguig City</td>
+						<td>Taguig City</td>
 					</tr>
 					<tr>
 						<td>CLIENT</td>

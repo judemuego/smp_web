@@ -55,7 +55,7 @@
 				<table width="100%" cellpadding="0" cellspacing="0">
 					<tr>
 						<td>LOCATION</td>
-						<td>White Plains, Quezon City</td>
+						<td>Quezon City</td>
 					</tr>
 					<tr>
 						<td>CLIENT</td>
