@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Projects;
+use App\ProjectCategories;
 use Illuminate\Http\Request;
 use Auth;
 
@@ -16,7 +17,8 @@ class ProjectsController extends Controller
     public function index()
     {
         $projects = Projects::orderBy('id')->get();
-        return view('backend.pages.website.projects', compact('projects'));
+        $projectcategories = ProjectCategories::orderBy('id')->get();
+        return view('backend.pages.website.projects', compact('projects','projectcategories'));
     }
 
     /**

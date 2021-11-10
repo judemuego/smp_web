@@ -65,8 +65,6 @@
 
                 {{-- PHOTOS MODAL --}}
 
-                
-
 
                 {{-- MODAL --}}
                     <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -115,7 +113,11 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="">Category</label>
-                                        <input type="text" class="form-control" id="category" name="category" placeholder="Category">
+                                        <select class="custom-select mb-3" id="category" name="category">
+                                        @foreach ($projectcategories as $key => $projectcategory)
+                                            <option value="{{ $projectcategory->name }}">{{ $projectcategory->name }}</option>
+                                        @endforeach
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
