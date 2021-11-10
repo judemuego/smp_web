@@ -18,6 +18,11 @@ class ProjectCategoriesController extends Controller
         return view('backend.pages.website.projectcategories', compact('projectcategories'));
     }
 
+    public function index_i()
+    {
+      return ProjectCategories::get();
+    }
+
     /**
      * Show the form for creating a new resource.
      *

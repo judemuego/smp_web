@@ -35,6 +35,7 @@ Route::group(['prefix' => '/admin/testimonial'], function (){
     Route::get          ('/edit/{id}',                   'TestimonialsController@edit'                           )->name('reason');
     Route::post         ('/update/{id}',                 'TestimonialsController@update'                         )->name('reason_update');
     Route::get          ('/destroy/{id}',                'TestimonialsController@destroy'                        )->name('reason_update');
+    Route::post         ('/testimonialdata',             'TestimonialsController@index_i'                        )->name('reason');
 });
 
 Route::group(['prefix' => '/admin/project'], function (){
@@ -51,6 +52,8 @@ Route::group(['prefix' => '/admin/projectcategory'], function (){
     Route::get          ('/edit/{id}',                   'ProjectCategoriesController@edit'                           )->name('reason');
     Route::post         ('/update/{id}',                 'ProjectCategoriesController@update'                         )->name('reason_update');
     Route::get          ('/destroy/{id}',                'ProjectCategoriesController@destroy'                        )->name('reason_update');
+    Route::post         ('/categorydata',                'ProjectCategoriesController@index_i'                )->name('reason');
+
 });
 
 Route::get('/{vue?}', function () { return view('frontend.index'); })->where('vue', '[\/\w\.-]*');

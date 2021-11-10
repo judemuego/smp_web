@@ -18,6 +18,11 @@ class TestimonialsController extends Controller
         return view('backend.pages.website.testimonials', compact('testimonials'));
     }
 
+    public function index_i()
+    {
+      return Testimonials::get();
+    }
+
     /**
      * Show the form for creating a new resource.
      *

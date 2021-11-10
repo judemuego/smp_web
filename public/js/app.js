@@ -1932,6 +1932,573 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      categories: [],
+      testimonials: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.post('/admin/projectcategory/categorydata').then(function (response) {
+      var data = response.data;
+      _this.categories = data;
+    });
+    axios.post('/admin/testimonial/testimonialdata').then(function (response) {
+      var data = response.data;
+      _this.testimonials = data;
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -39562,7 +40129,32 @@ var render = function() {
     _vm._v(" "),
     _vm._m(4),
     _vm._v(" "),
-    _vm._m(5),
+    _c("section", { staticClass: "content-section no-spacing" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          { staticClass: "row no-gutters" },
+          [
+            _vm._m(5),
+            _vm._v(" "),
+            _vm._l(_vm.categories, function(category) {
+              return _c(
+                "div",
+                { key: category.id, staticClass: "col-lg-4 col-md-6" },
+                [
+                  _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
+                    _c("span", [_vm._v(_vm._s(category.name))]),
+                    _vm._v(" "),
+                    _c("i", { staticClass: "lni lni-arrow-right" })
+                  ])
+                ]
+              )
+            })
+          ],
+          2
+        )
+      ])
+    ]),
     _vm._v(" "),
     _vm._m(6),
     _vm._v(" "),
@@ -39592,7 +40184,34 @@ var render = function() {
               ])
             ]),
             _vm._v(" "),
-            _vm._m(8)
+            _c("div", { staticClass: "col-12" }, [
+              _c("div", { staticClass: "testimonials-slider" }, [
+                _c(
+                  "div",
+                  { staticClass: "swiper-wrapper" },
+                  _vm._l(_vm.testimonials, function(testimonial) {
+                    return _c(
+                      "div",
+                      { key: testimonial.id, staticClass: "swiper-slide" },
+                      [
+                        _c("div", { staticClass: "testimonial" }, [
+                          _c("p", [_vm._v(_vm._s(testimonial.testimonial))]),
+                          _vm._v(" "),
+                          _c("i", { staticClass: "lni lni-quotation" }),
+                          _vm._v(" "),
+                          _c("h6", [_vm._v(_vm._s(testimonial.name))]),
+                          _vm._v(" "),
+                          _c("small", [_vm._v(_vm._s(testimonial.company))])
+                        ])
+                      ]
+                    )
+                  }),
+                  0
+                ),
+                _vm._v(" "),
+                _vm._m(8)
+              ])
+            ])
           ])
         ])
       ]
@@ -40118,73 +40737,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "content-section no-spacing" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row no-gutters" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c("div", { staticClass: "section-title text-left" }, [
-              _c("h6", [_vm._v("SMP PROJECTS")]),
-              _vm._v(" "),
-              _c("h2", [_vm._v("Sectors We Work In")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("High-End Residential Projects")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Mid-Cost Residential Projects")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Commercial Projects")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Warehouse & Factories")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Churches")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Mausoleums")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-            _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-              _c("span", [_vm._v("Interior Fit-Out")]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-arrow-right" })
-            ])
-          ])
-        ])
+    return _c("div", { staticClass: "col-12" }, [
+      _c("div", { staticClass: "section-title text-left" }, [
+        _c("h6", [_vm._v("SMP PROJECTS")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("Sectors We Work In")])
       ])
     ])
   },
@@ -40420,83 +40977,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-12" }, [
-      _c("div", { staticClass: "testimonials-slider" }, [
-        _c("div", { staticClass: "swiper-wrapper" }, [
-          _c("div", { staticClass: "swiper-slide" }, [
-            _c("div", { staticClass: "testimonial" }, [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-                )
-              ]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-quotation" }),
-              _vm._v(" "),
-              _c("h6", [_vm._v("Maria Reyes")]),
-              _vm._v(" "),
-              _c("small", [_vm._v("Pinoy Homes LLC")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "swiper-slide" }, [
-            _c("div", { staticClass: "testimonial" }, [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-                )
-              ]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-quotation" }),
-              _vm._v(" "),
-              _c("h6", [_vm._v("Maria Reyes")]),
-              _vm._v(" "),
-              _c("small", [_vm._v("Pinoy Homes LLC")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "swiper-slide" }, [
-            _c("div", { staticClass: "testimonial" }, [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-                )
-              ]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-quotation" }),
-              _vm._v(" "),
-              _c("h6", [_vm._v("Maria Reyes")]),
-              _vm._v(" "),
-              _c("small", [_vm._v("Pinoy Homes LLC")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "swiper-slide" }, [
-            _c("div", { staticClass: "testimonial" }, [
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                )
-              ]),
-              _vm._v(" "),
-              _c("i", { staticClass: "lni lni-quotation" }),
-              _vm._v(" "),
-              _c("h6", [_vm._v("Maria Reyes")]),
-              _vm._v(" "),
-              _c("small", [_vm._v("Pinoy Homes LLC")])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "controls" }, [
-          _c("div", { staticClass: "button-prev" }, [
-            _c("i", { staticClass: "lni lni-arrow-left" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "button-next" }, [
-            _c("i", { staticClass: "lni lni-arrow-right" })
-          ])
-        ])
+    return _c("div", { staticClass: "controls" }, [
+      _c("div", { staticClass: "button-prev" }, [
+        _c("i", { staticClass: "lni lni-arrow-left" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "button-next" }, [
+        _c("i", { staticClass: "lni lni-arrow-right" })
       ])
     ])
   },
@@ -41563,7 +42050,7 @@ var staticRenderFns = [
                     _c("tr", [
                       _c("td", [_vm._v("LOCATION")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("White Plains, Quezon City")])
+                      _c("td", [_vm._v("Quezon City")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -42005,7 +42492,7 @@ var staticRenderFns = [
                     _c("tr", [
                       _c("td", [_vm._v("LOCATION")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("McKinley Hills, Taguig City")])
+                      _c("td", [_vm._v("Taguig City")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -42479,7 +42966,7 @@ var staticRenderFns = [
                     _c("tr", [
                       _c("td", [_vm._v("LOCATION")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("McKinley Hills, Taguig City")])
+                      _c("td", [_vm._v("Taguig City")])
                     ]),
                     _vm._v(" "),
                     _c("tr", [
@@ -60397,15 +60884,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Index_vue_vue_type_template_id_e3f6dc16___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Index.vue?vue&type=template&id=e3f6dc16& */ "./resources/js/components/frontend/pages/Index.vue?vue&type=template&id=e3f6dc16&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Index.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Index_vue_vue_type_template_id_e3f6dc16___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Index_vue_vue_type_template_id_e3f6dc16___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -60419,6 +60908,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/frontend/pages/Index.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Index.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/Index.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

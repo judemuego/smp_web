@@ -276,26 +276,9 @@
                 <!-- end section-title --> 
             </div>
             <!-- end col-12 -->
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>High-End Residential Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <div class="col-lg-4 col-md-6" v-for="category in categories" :key="category.id"> <a href="#" class="sector-box"> <span>{{category.name}}</span> <i class="lni lni-arrow-right"></i> </a> </div>
             <!-- end col-4 -->
-            
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Mid-Cost Residential Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
-            
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial Projects</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
-            
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Warehouse & Factories</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
-            
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Churches</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 -->
-            
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Mausoleums</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 --> 
-
-            <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Interior Fit-Out</span> <i class="lni lni-arrow-right"></i> </a> </div>
-            <!-- end col-4 --> 
+       
             </div>
             <!-- end row --> 
         </div>
@@ -422,42 +405,15 @@
             <div class="col-12">
                 <div class="testimonials-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div  v-for="testimonial in testimonials" :key="testimonial.id" class="swiper-slide">
                     <div class="testimonial">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <p>{{testimonial.testimonial}}</p>
                         <i class="lni lni-quotation"></i>
-                        <h6>Maria Reyes</h6>
-                        <small>Pinoy Homes LLC</small> </div>
+                        <h6>{{testimonial.name}}</h6>
+                        <small>{{testimonial.company}}</small> </div>
                     <!-- end testimonial --> 
                     </div>
-                    <!-- end swiper-slide -->
-                    <div class="swiper-slide">
-                    <div class="testimonial">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <i class="lni lni-quotation"></i>
-                        <h6>Maria Reyes</h6>
-                        <small>Pinoy Homes LLC</small> </div>
-                    <!-- end testimonial --> 
-                    </div>
-                    <!-- end swiper-slide -->
-                    <div class="swiper-slide">
-                    <div class="testimonial">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <i class="lni lni-quotation"></i>
-                        <h6>Maria Reyes</h6>
-                        <small>Pinoy Homes LLC</small> </div>
-                    <!-- end testimonial --> 
-                    </div>
-                    <!-- end swiper-slide -->
-                    <div class="swiper-slide">
-                    <div class="testimonial">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <i class="lni lni-quotation"></i>
-                        <h6>Maria Reyes</h6>
-                        <small>Pinoy Homes LLC</small> </div>
-                    <!-- end testimonial --> 
-                    </div>
-                    <!-- end swiper-slide --> 
+                  
                 </div>
                 <!-- end swiper-wrapper -->
                 <div class="controls">
@@ -576,3 +532,30 @@
 </div> 
 
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+            categories: [],
+            testimonials: []
+
+        }
+    },
+    created() {
+
+        axios.post('/admin/projectcategory/categorydata').then(response => {
+                let data = response.data;
+                this.categories = data
+        });
+
+        axios.post('/admin/testimonial/testimonialdata').then(response => {
+                let data = response.data;
+                this.testimonials = data
+        });
+
+       
+    }
+
+}
+</script>
