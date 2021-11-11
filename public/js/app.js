@@ -40329,7 +40329,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "header-box" }, [
-            _c("b", [_vm._v("27")]),
+            _c("b", [_vm._v("14")]),
             _vm._v(" "),
             _c("small", [_vm._v("YEARS OF EXPERIENCE")])
           ])
@@ -40489,7 +40489,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "114", "data-status": "yes" }
                 },
-                [_vm._v("114")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40508,7 +40508,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "38", "data-status": "yes" }
                 },
-                [_vm._v("38")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40527,7 +40527,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "35", "data-status": "yes" }
                 },
-                [_vm._v("35")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40546,7 +40546,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "8", "data-status": "yes" }
                 },
-                [_vm._v("8")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40567,7 +40567,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "3", "data-status": "yes" }
                 },
-                [_vm._v("3")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40586,7 +40586,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "2", "data-status": "yes" }
                 },
-                [_vm._v("2")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -40605,7 +40605,7 @@ var staticRenderFns = [
                   staticClass: "odometer",
                   attrs: { "data-count": "55", "data-status": "yes" }
                 },
-                [_vm._v("55")]
+                [_vm._v("0")]
               ),
               _vm._v(" "),
               _c("span", { staticClass: "value" }),
@@ -43614,7 +43614,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "section-title" }, [
                 _c("h6", [_vm._v("MAKE A DIFFERENCE")]),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Our Vore Value")])
+                _c("h2", [_vm._v("Our Core Value")])
               ])
             ]),
             _vm._v(" "),
@@ -44435,16 +44435,16 @@ var staticRenderFns = [
     return _c("div", [
       _c("header", { staticClass: "page-header" }, [
         _c("div", { staticClass: "container" }, [
-          _c("h1", [_vm._v("OUR Logo")]),
+          _c("h1", [_vm._v("OUR LOGO")]),
           _vm._v(" "),
           _c("h6", [
-            _vm._v("Know the representation and meaning behind our logo ")
+            _vm._v("Know the representation and meaning behind our logo")
           ]),
           _vm._v(" "),
           _c("ul", [
             _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("HOME")])]),
             _vm._v(" "),
-            _c("li", [_vm._v("OUR HISTORY")])
+            _c("li", [_vm._v("OUR LOGO")])
           ])
         ])
       ]),
@@ -44454,142 +44454,93 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-12" }, [
               _c("div", { staticClass: "section-title" }, [
-                _c("h6", [_vm._v("BACKBONE OF CONSTO")]),
+                _c("h6", [_vm._v("MAKE A DIFFERENCE")]),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Our Long History")])
-              ])
-            ])
+                _c("h2", [_vm._v("Our Logo")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "figure",
+                {
+                  staticClass: "side-image",
+                  staticStyle: { "text-align": "center" }
+                },
+                [
+                  _c("img", {
+                    staticStyle: { width: "40em" },
+                    attrs: {
+                      src: "/template/images/logo_head.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12" })
           ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "our-history" }, [
-          _c("div", { staticClass: "swiper-wrapper" }, [
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("April 2010")]),
-              _vm._v(" "),
-              _c("figure", [
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "content-section" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row align-items-center" }, [
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("figure", { staticClass: "side-image" }, [
                 _c("img", {
-                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
+                  attrs: {
+                    src: "/template/images/logo_concept.jpg",
+                    alt: "Image"
+                  }
                 })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("June 2011")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
+            _c("div", { staticClass: "col-lg-6" }, [
+              _c("div", { staticClass: "side-content" }, [
+                _c("h5", [_vm._v("The Meaning Behind")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "The story of this logo is a group of people building as one to strengthen one another (bridge & crane), to provide a high quality service (diamond), to set a direction toward success (plane & boat), and to connect to a limitless possibilities (connecting lines)."
+                  )
+                ])
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("September 2012")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide03.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("February 2013")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("November 2017")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("November 2018")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide02.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "swiper-slide" }, [
-              _c("b", [_vm._v("March 2020")]),
-              _vm._v(" "),
-              _c("figure", [
-                _c("img", {
-                  attrs: { src: "/template/images/slide01.jpg", alt: "Image" }
-                })
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "We know our customers are real people with specific goals and unique preferences."
-                )
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "swiper-pagination" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "controls" }, [
-            _c("div", { staticClass: "button-prev" }, [
-              _c("i", { staticClass: "lni lni-arrow-left" })
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "button-next" }, [
-              _c("i", { staticClass: "lni lni-arrow-right" })
             ])
           ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "section",
+        {
+          staticClass: "content-section no-spacing white-space-top",
+          attrs: { "data-background": "/template/images/section-bg02.jpg" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-lg-8" }, [
+                _c("div", { staticClass: "cta-box-yellow" }, [
+                  _c("h4", [
+                    _vm._v("The first thing we build is relationships")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. Led all cottage met enabled attempt through talking delight. Dare he feet my tell busy. Considered imprudence of he friendship boisterous."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                    _vm._v("GET AN ESTIMATE")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      )
     ])
   }
 ]
@@ -44894,6 +44845,12 @@ var staticRenderFns = [
                     _vm._v("Certificates")
                   ])
                 ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("a", { attrs: { href: "/services" } }, [
+                _vm._v("Subsidiaries")
               ])
             ]),
             _vm._v(" "),

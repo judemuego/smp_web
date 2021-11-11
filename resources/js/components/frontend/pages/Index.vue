@@ -58,7 +58,7 @@
                 <!-- end swiper-slide --> 
             </div>
             <!-- end swiper-wrapper -->
-            <div class="header-box"> <b>27</b> <small>YEARS OF EXPERIENCE</small> </div>
+            <div class="header-box"> <b>14</b> <small>YEARS OF EXPERIENCE</small> </div>
             <!-- end header-box --> 
             </div>
             <!-- end slider-main --> 
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="114" data-status="yes">114</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="114" data-status="yes">0</span> <span class="value"></span>
                 <h6>High-End Residential Projects</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -147,7 +147,7 @@
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="38" data-status="yes">38</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="38" data-status="yes">0</span> <span class="value"></span>
                 <h6>Mid-Cost Residential Projects</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -155,7 +155,7 @@
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="35" data-status="yes">35</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="35" data-status="yes">0</span> <span class="value"></span>
                 <h6>Commercial Projects</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -163,7 +163,7 @@
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="8" data-status="yes">8</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="8" data-status="yes">0</span> <span class="value"></span>
                 <h6>Warehouse & Factories</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -174,7 +174,7 @@
             <!-- end row --> 
             <div class="row">
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="3" data-status="yes">3</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="3" data-status="yes">0</span> <span class="value"></span>
                 <h6>Churches</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -182,7 +182,7 @@
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="2" data-status="yes">2</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="2" data-status="yes">0</span> <span class="value"></span>
                 <h6>Mausoleums</h6>
                 <p>Completed Projects</p>
                 </div>
@@ -190,7 +190,7 @@
             </div>
             <!-- end col-3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="counter-box"> <span class="odometer" data-count="55" data-status="yes">55</span> <span class="value"></span>
+                <div class="counter-box"> <span class="odometer" data-count="55" data-status="yes">0</span> <span class="value"></span>
                 <h6>Interior Fit-out</h6>
                 <p>Completed Projects</p>
                 </div>

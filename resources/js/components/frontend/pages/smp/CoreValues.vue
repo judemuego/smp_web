@@ -72,7 +72,7 @@
 	  <div class="col-12">
 			 <div class="section-title">
           <h6>MAKE A DIFFERENCE</h6>
-          <h2>Our Vore Value</h2>
+          <h2>Our Core Value</h2>
         </div>
         <!-- end section-title --> 
 		</div>

@@ -18,6 +18,7 @@
                     <li><a href="/smp/certificates">Certificates</a></li>
                 </ul>
                 </li>
+                <li><a href="/services">Subsidiaries</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/projects">Portfolio</a></li>
                 <li><a href="/about">About</a></li>
