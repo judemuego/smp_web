@@ -41665,7 +41665,7 @@ var render = function() {
                     ]),
                     _vm._v(" "),
                     _c("figcaption", [
-                      _c("h5", [_vm._v(_vm._s(project.project_name))])
+                      _c("h5", [_vm._v(_vm._s(project.description))])
                     ])
                   ])
                 ])

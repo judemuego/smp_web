@@ -28,7 +28,7 @@
 				<li v-for="project in projects" :key="project.id" :class="project.category">
 				 <figure class="project-box"> <a href="/single-project"><img :src="'/images/projects/'+project.picture" alt="Image"></a>
           <figcaption>
-            <h5>{{project.project_name}}</h5>
+            <h5>{{project.description}}</h5>
           </figcaption>
         </figure>
 					<!-- end project-box -->
