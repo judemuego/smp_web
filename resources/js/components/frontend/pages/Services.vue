@@ -19,7 +19,7 @@
         <div class="icon-content">
           <figure><img src="/template/images/icon01.png" alt="Image"></figure>
           <h3>We plan with sensetive</h3>
-          <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a> </div>
+          <small>The awards for design, creativity and innovation on the Internet</small>  </div>
         <!-- end icon-content --> 
       </div>
       <!-- end col-4 -->
@@ -27,7 +27,7 @@
         <div class="icon-content">
           <figure><img src="/template/images/icon02.png" alt="Image"></figure>
           <h3>For futuristic buildings</h3>
-          <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a> </div>
+          <small>Twenty spring of in esteem spirit likely estate continue new building</small>  </div>
         <!-- end icon-content --> 
       </div>
       <!-- end col-4 -->
@@ -35,7 +35,7 @@
         <div class="icon-content">
           <figure><img src="/template/images/icon03.png" alt="Image"></figure>
           <h3>Make living beautiful</h3>
-          <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a> </div>
+          <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> </div>
         <!-- end icon-content --> 
       </div>
       <!-- end col-4 --> 
@@ -72,45 +72,77 @@
 </section>
 <!-- end content-section -->
 <section class="content-section ">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="counter-box"> <span class="odometer" data-count="33" data-status="yes">0</span> <span class="value">%</span>
-          <h6>Mortgage Credit</h6>
-          <p>Out interested acceptance our reasonable companions an</p>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="114" data-status="yes">0</span> <span class="value"></span>
+                <h6>High-End Residential Projects</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="38" data-status="yes">0</span> <span class="value"></span>
+                <h6>Mid-Cost Residential Projects</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="35" data-status="yes">0</span> <span class="value"></span>
+                <h6>Commercial Projects</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="8" data-status="yes">0</span> <span class="value"></span>
+                <h6>Warehouse & Factories</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 --> 
+            </div>
+            <!-- end row --> 
+            <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="3" data-status="yes">0</span> <span class="value"></span>
+                <h6>Churches</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="2" data-status="yes">0</span> <span class="value"></span>
+                <h6>Mausoleums</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="counter-box"> <span class="odometer" data-count="55" data-status="yes">0</span> <span class="value"></span>
+                <h6>Interior Fit-out</h6>
+                <p>Completed Projects</p>
+                </div>
+                <!-- end counter-box --> 
+            </div>
+            <!-- end col-3 -->
+            <div class="col-lg-3 col-md-6">
+                
+            </div>
+            <!-- end col-3 --> 
+            </div>
+            <!-- end row --> 
         </div>
-        <!-- end counter-box --> 
-      </div>
-      <!-- end col-3 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="counter-box"> <span class="odometer" data-count="2021" data-status="yes">0</span> <span class="value">#</span>
-          <h6>Estimated Time</h6>
-          <p>Out interested acceptance our reasonable companions an</p>
-        </div>
-        <!-- end counter-box --> 
-      </div>
-      <!-- end col-3 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="counter-box"> <span class="odometer" data-count="247" data-status="yes">0</span> <span class="value">m²</span>
-          <h6>XXL Size of Flats</h6>
-          <p>Out interested acceptance our reasonable companions an</p>
-        </div>
-        <!-- end counter-box --> 
-      </div>
-      <!-- end col-3 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="counter-box"> <span class="odometer" data-count="529" data-status="yes">0</span> <span class="value">+</span>
-          <h6>Monthly Payment</h6>
-          <p>Out interested acceptance our reasonable companions an</p>
-        </div>
-        <!-- end counter-box --> 
-      </div>
-      <!-- end col-3 --> 
-    </div>
-    <!-- end row --> 
-  </div>
-  <!-- end container --> 
-</section>
+        <!-- end container --> 
+        </section>
+        <!-- end content-section -->
 <!-- end content-section -->
 <section class="content-section white-space-bottom" data-background="#f7f6f1">
   <div class="container">
@@ -212,38 +244,52 @@
   <!-- end container --> 
 </section>
 <!-- end content-section -->
-<section class="content-section">
-  <div class="container">
-    <div class="row no-gutters">
-      <div class="col-12">
-        <div class="section-title text-left">
-          <h6>ESTIMATIED PRICE</h6>
-          <h2>Sectors We Work In</h2>
+  <section class="content-section">
+        <div class="container">
+            <div class="row no-gutters">
+            <div class="col-12">
+                <div class="section-title text-left">
+                <h6>SMP PROJECTS</h6>
+                <h2>Sectors We Work In</h2>
+                </div>
+                <!-- end section-title --> 
+            </div>
+            <!-- end col-12 -->
+            <div class="col-lg-4 col-md-6" v-for="category in categories" :key="category.id"> <a href="#" class="sector-box"> <span>{{category.name}}</span> <i class="lni lni-arrow-right"></i> </a> </div>
+            <!-- end col-4 -->
+       
+            </div>
+            <!-- end row --> 
         </div>
-        <!-- end section-title --> 
-      </div>
-      <!-- end col-12 -->
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Commercial</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 -->
-      
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Apartments</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 -->
-      
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Flats</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 -->
-      
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Villas</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 -->
-      
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Medical</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 -->
-      
-      <div class="col-lg-4 col-md-6"> <a href="#" class="sector-box"> <span>Industrial</span> <i class="lni lni-arrow-right"></i> </a> </div>
-      <!-- end col-4 --> 
-    </div>
-    <!-- end row --> 
-  </div>
-  <!-- end container --> 
-</section>
+        <!-- end container --> 
+        </section>
+
     </div>
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+            categories: [],
+            testimonials: []
+
+        }
+    },
+    created() {
+
+        axios.post('/admin/projectcategory/categorydata').then(response => {
+                let data = response.data;
+                this.categories = data
+        });
+
+        axios.post('/admin/testimonial/testimonialdata').then(response => {
+                let data = response.data;
+                this.testimonials = data
+        });
+
+       
+    }
+
+}
+</script>

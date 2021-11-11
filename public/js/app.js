@@ -2476,6 +2476,318 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      categories: [],
+      testimonials: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.post('/admin/projectcategory/categorydata').then(function (response) {
+      var data = response.data;
+      _this.categories = data;
+    });
+    axios.post('/admin/testimonial/testimonialdata').then(function (response) {
+      var data = response.data;
+      _this.testimonials = data;
+    });
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -40243,7 +40555,7 @@ var staticRenderFns = [
                   _vm._v("When we build, let us think that we build forever")
                 ]),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [
+                _c("a", { attrs: { href: "/services" } }, [
                   _vm._v("BUILD WITH US "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
@@ -40262,7 +40574,7 @@ var staticRenderFns = [
                   _vm._v("We work as our descendants will thank us for")
                 ]),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [
+                _c("a", { attrs: { href: "/about" } }, [
                   _vm._v("KNOW MORE ABOUT US "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
@@ -40283,7 +40595,7 @@ var staticRenderFns = [
                   )
                 ]),
                 _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [
+                _c("a", { attrs: { href: "/projects" } }, [
                   _vm._v("DISCOVER MORE "),
                   _c("i", { staticClass: "lni lni-arrow-right" })
                 ])
@@ -40360,7 +40672,7 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
+              _c("a", { attrs: { href: "/services" } }, [_vm._v("+")])
             ])
           ]),
           _vm._v(" "),
@@ -40380,7 +40692,7 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
+              _c("a", { attrs: { href: "/services" } }, [_vm._v("+")])
             ])
           ]),
           _vm._v(" "),
@@ -40400,7 +40712,7 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
+              _c("a", { attrs: { href: "/services" } }, [_vm._v("+")])
             ])
           ])
         ])
@@ -40668,7 +40980,7 @@ var staticRenderFns = [
                 _c("figcaption", [
                   _c("h5", [_vm._v("Three Storey Residence")]),
                   _vm._v(" "),
-                  _c("p", [_vm._v("Rolling Lane, Batasan, Quezon City")]),
+                  _c("p", [_vm._v("Batasan, Quezon City")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
@@ -40693,9 +41005,7 @@ var staticRenderFns = [
                 _c("figcaption", [
                   _c("h5", [_vm._v("Three Storey Residence with Basement")]),
                   _vm._v(" "),
-                  _c("p", [
-                    _vm._v("Pebblewood St. Mckinley Hills, Taguig City")
-                  ]),
+                  _c("p", [_vm._v("Mckinley Hills, Taguig City")]),
                   _vm._v(" "),
                   _c("p", [_vm._v("Design Architect : Arch. Henry Ng Tan")])
                 ])
@@ -40716,9 +41026,32 @@ var staticRenderFns = [
                 _c("figcaption", [
                   _c("h5", [_vm._v("Two Storey Residence")]),
                   _vm._v(" "),
+                  _c("p", [_vm._v("Alabang Hills, Muntinlupa City")]),
+                  _vm._v(" "),
                   _c("p", [
-                    _vm._v("La Carlota St. Alabang Hills, Muntinlupa City")
+                    _vm._v("Design Architect: Arch. Mark Joseph Siapno")
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "swiper-slide" }, [
+              _c("figure", { staticClass: "project-box" }, [
+                _c("a", { attrs: { href: "#" } }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/template/images/project-4.jpg",
+                      alt: "Image"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _c("h5", [
+                    _vm._v("iTower 2.0 : Fifteen-Storey Residential Bldg")
                   ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Sampaloc, Manila")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v("Design Architect: Arch. Mark Joseph Siapno")
@@ -41406,525 +41739,559 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _vm._m(4),
+    _vm._v(" "),
+    _vm._m(5),
+    _vm._v(" "),
+    _c("section", { staticClass: "content-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c(
+          "div",
+          { staticClass: "row no-gutters" },
+          [
+            _vm._m(6),
+            _vm._v(" "),
+            _vm._l(_vm.categories, function(category) {
+              return _c(
+                "div",
+                { key: category.id, staticClass: "col-lg-4 col-md-6" },
+                [
+                  _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
+                    _c("span", [_vm._v(_vm._s(category.name))]),
+                    _vm._v(" "),
+                    _c("i", { staticClass: "lni lni-arrow-right" })
+                  ])
+                ]
+              )
+            })
+          ],
+          2
+        )
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("header", { staticClass: "page-header" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("h1", [_vm._v("SERVICES")]),
+    return _c("header", { staticClass: "page-header" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", [_vm._v("SERVICES")]),
+        _vm._v(" "),
+        _c("h6", [
+          _vm._v("SMP Construction services we offer to our valued clients")
+        ]),
+        _vm._v(" "),
+        _c("ul", [
+          _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("HOME")])]),
           _vm._v(" "),
-          _c("h6", [
-            _vm._v("SMP Construction services we offer to our valued clients")
+          _c("li", [_vm._v("SERVICES")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "content-section" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "icon-content" }, [
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/icon01.png", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("h3", [_vm._v("We plan with sensetive")]),
+              _vm._v(" "),
+              _c("small", [
+                _vm._v(
+                  "The awards for design, creativity and innovation on the Internet"
+                )
+              ])
+            ])
           ]),
           _vm._v(" "),
-          _c("ul", [
-            _c("li", [_c("a", { attrs: { href: "#" } }, [_vm._v("HOME")])]),
-            _vm._v(" "),
-            _c("li", [_vm._v("SERVICES")])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "content-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "icon-content" }, [
-                _c("figure", [
-                  _c("img", {
-                    attrs: { src: "/template/images/icon01.png", alt: "Image" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h3", [_vm._v("We plan with sensetive")]),
-                _vm._v(" "),
-                _c("small", [
-                  _vm._v(
-                    "The awards for design, creativity and innovation on the Internet"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "icon-content" }, [
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/icon02.png", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("h3", [_vm._v("For futuristic buildings")]),
+              _vm._v(" "),
+              _c("small", [
+                _vm._v(
+                  "Twenty spring of in esteem spirit likely estate continue new building"
+                )
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "icon-content" }, [
-                _c("figure", [
-                  _c("img", {
-                    attrs: { src: "/template/images/icon02.png", alt: "Image" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h3", [_vm._v("For futuristic buildings")]),
-                _vm._v(" "),
-                _c("small", [
-                  _vm._v(
-                    "Twenty spring of in esteem spirit likely estate continue new building"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4" }, [
-              _c("div", { staticClass: "icon-content" }, [
-                _c("figure", [
-                  _c("img", {
-                    attrs: { src: "/template/images/icon03.png", alt: "Image" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("h3", [_vm._v("Make living beautiful")]),
-                _vm._v(" "),
-                _c("small", [
-                  _vm._v(
-                    "Sympathize it projection ye insipidity celebrated our pianoforte"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("a", { attrs: { href: "#" } }, [_vm._v("+")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-4" }, [
+            _c("div", { staticClass: "icon-content" }, [
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/template/images/icon03.png", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("h3", [_vm._v("Make living beautiful")]),
+              _vm._v(" "),
+              _c("small", [
+                _vm._v(
+                  "Sympathize it projection ye insipidity celebrated our pianoforte"
+                )
               ])
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "section",
-        {
-          staticClass: "content-section no-spacing",
-          attrs: { "data-background": "/template/images/section-bg02.jpg" }
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "row justify-content-end" }, [
-              _c("div", { staticClass: "col-lg-6 col-md-9" }, [
-                _c("div", { staticClass: "services-list-box" }, [
-                  _c("h4", [_vm._v("Construction Services")]),
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "content-section no-spacing",
+        attrs: { "data-background": "/template/images/section-bg02.jpg" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row justify-content-end" }, [
+            _c("div", { staticClass: "col-lg-6 col-md-9" }, [
+              _c("div", { staticClass: "services-list-box" }, [
+                _c("h4", [_vm._v("Construction Services")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [_vm._v("General Contracting")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Pre-Construction")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Design–Build")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("24-Hour Maintenance")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Non-Profit")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Repairing Building")]),
+                  _vm._v(" "),
+                  _c("li", [_vm._v("Renovation")])
+                ]),
+                _vm._v(" "),
+                _c("a", { staticClass: "button", attrs: { href: "#" } }, [
+                  _vm._v("GET AN ESTIMATE")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "content-section " }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "114", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("High-End Residential Projects")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "38", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Mid-Cost Residential Projects")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "35", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Commercial Projects")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "8", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Warehouse & Factories")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "3", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Churches")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "2", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Mausoleums")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" }, [
+            _c("div", { staticClass: "counter-box" }, [
+              _c(
+                "span",
+                {
+                  staticClass: "odometer",
+                  attrs: { "data-count": "55", "data-status": "yes" }
+                },
+                [_vm._v("0")]
+              ),
+              _vm._v(" "),
+              _c("span", { staticClass: "value" }),
+              _vm._v(" "),
+              _c("h6", [_vm._v("Interior Fit-out")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Completed Projects")])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-md-6" })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "content-section white-space-bottom",
+        attrs: { "data-background": "#f7f6f1" }
+      },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-7" }, [
+              _c("div", { staticClass: "section-title text-left" }, [
+                _c("h6", [_vm._v("CONSTRUCTION COMPANY")]),
+                _vm._v(" "),
+                _c("h2", [_vm._v("Built on Three Steps")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-5" }, [
+              _c("p", [
+                _vm._v(
+                  "Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies."
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "step-box" }, [
+                _c("figure", { staticClass: "image" }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/step01.jpg", alt: "Image" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "content" }, [
+                  _c("span", [_vm._v("01.")]),
+                  _vm._v(" "),
+                  _c("figure", { staticClass: "icon" }, [
+                    _c("img", {
+                      attrs: {
+                        src: "/template/images/icon01.png",
+                        alt: "Image"
+                      }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("h6", [_vm._v("OUR PEOPLE")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "To they four in love. Settling you has separate supplied bed. Concluded resembled suspected his resources curiosity joy. "
+                      "Necessary ye contented newspaper zealously breakfast he prevailed. "
                     )
-                  ]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [_vm._v("General Contracting")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Pre-Construction")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Design–Build")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("24-Hour Maintenance")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Non-Profit")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Repairing Building")]),
-                    _vm._v(" "),
-                    _c("li", [_vm._v("Renovation")])
-                  ]),
-                  _vm._v(" "),
-                  _c("a", { staticClass: "button", attrs: { href: "#" } }, [
-                    _vm._v("GET AN ESTIMATE")
                   ])
                 ])
               ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("section", { staticClass: "content-section " }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-3 col-md-6" }, [
-              _c("div", { staticClass: "counter-box" }, [
-                _c(
-                  "span",
-                  {
-                    staticClass: "odometer",
-                    attrs: { "data-count": "33", "data-status": "yes" }
-                  },
-                  [_vm._v("0")]
-                ),
-                _vm._v(" "),
-                _c("span", { staticClass: "value" }, [_vm._v("%")]),
-                _vm._v(" "),
-                _c("h6", [_vm._v("Mortgage Credit")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Out interested acceptance our reasonable companions an"
-                  )
-                ])
-              ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-md-6" }, [
-              _c("div", { staticClass: "counter-box" }, [
-                _c(
-                  "span",
-                  {
-                    staticClass: "odometer",
-                    attrs: { "data-count": "2021", "data-status": "yes" }
-                  },
-                  [_vm._v("0")]
-                ),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "step-box" }, [
+                _c("figure", { staticClass: "image" }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/step02.jpg", alt: "Image" }
+                  })
+                ]),
                 _vm._v(" "),
-                _c("span", { staticClass: "value" }, [_vm._v("#")]),
-                _vm._v(" "),
-                _c("h6", [_vm._v("Estimated Time")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Out interested acceptance our reasonable companions an"
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-md-6" }, [
-              _c("div", { staticClass: "counter-box" }, [
-                _c(
-                  "span",
-                  {
-                    staticClass: "odometer",
-                    attrs: { "data-count": "247", "data-status": "yes" }
-                  },
-                  [_vm._v("0")]
-                ),
-                _vm._v(" "),
-                _c("span", { staticClass: "value" }, [_vm._v("m²")]),
-                _vm._v(" "),
-                _c("h6", [_vm._v("XXL Size of Flats")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Out interested acceptance our reasonable companions an"
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-md-6" }, [
-              _c("div", { staticClass: "counter-box" }, [
-                _c(
-                  "span",
-                  {
-                    staticClass: "odometer",
-                    attrs: { "data-count": "529", "data-status": "yes" }
-                  },
-                  [_vm._v("0")]
-                ),
-                _vm._v(" "),
-                _c("span", { staticClass: "value" }, [_vm._v("+")]),
-                _vm._v(" "),
-                _c("h6", [_vm._v("Monthly Payment")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Out interested acceptance our reasonable companions an"
-                  )
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "section",
-        {
-          staticClass: "content-section white-space-bottom",
-          attrs: { "data-background": "#f7f6f1" }
-        },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-lg-7" }, [
-                _c("div", { staticClass: "section-title text-left" }, [
-                  _c("h6", [_vm._v("CONSTRUCTION COMPANY")]),
+                _c("div", { staticClass: "content" }, [
+                  _c("span", [_vm._v("02.")]),
                   _vm._v(" "),
-                  _c("h2", [_vm._v("Built on Three Steps")])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-5" }, [
-                _c("p", [
-                  _vm._v(
-                    "Our diverse portfolio represents decades of construction experience backed by a passion for quality, outstanding client service industry technologies."
-                  )
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-4" }, [
-                _c("div", { staticClass: "step-box" }, [
-                  _c("figure", { staticClass: "image" }, [
+                  _c("figure", { staticClass: "icon" }, [
                     _c("img", {
                       attrs: {
-                        src: "/template/images/step01.jpg",
+                        src: "/template/images/icon02.png",
                         alt: "Image"
                       }
                     })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "content" }, [
-                    _c("span", [_vm._v("01.")]),
-                    _vm._v(" "),
-                    _c("figure", { staticClass: "icon" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/template/images/icon01.png",
-                          alt: "Image"
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("h6", [_vm._v("OUR PEOPLE")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Necessary ye contented newspaper zealously breakfast he prevailed. "
-                      )
-                    ])
+                  _c("h6", [_vm._v("OUR PROCESS")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Necessary ye contented newspaper zealously breakfast he prevailed. "
+                    )
                   ])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-4" }, [
-                _c("div", { staticClass: "step-box" }, [
-                  _c("figure", { staticClass: "image" }, [
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4" }, [
+              _c("div", { staticClass: "step-box" }, [
+                _c("figure", { staticClass: "image" }, [
+                  _c("img", {
+                    attrs: { src: "/template/images/step03.jpg", alt: "Image" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "content" }, [
+                  _c("span", [_vm._v("03.")]),
+                  _vm._v(" "),
+                  _c("figure", { staticClass: "icon" }, [
                     _c("img", {
                       attrs: {
-                        src: "/template/images/step02.jpg",
+                        src: "/template/images/icon03.png",
                         alt: "Image"
                       }
                     })
                   ]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "content" }, [
-                    _c("span", [_vm._v("02.")]),
-                    _vm._v(" "),
-                    _c("figure", { staticClass: "icon" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/template/images/icon02.png",
-                          alt: "Image"
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("h6", [_vm._v("OUR PROCESS")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Necessary ye contented newspaper zealously breakfast he prevailed. "
-                      )
-                    ])
-                  ])
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-lg-4" }, [
-                _c("div", { staticClass: "step-box" }, [
-                  _c("figure", { staticClass: "image" }, [
-                    _c("img", {
-                      attrs: {
-                        src: "/template/images/step03.jpg",
-                        alt: "Image"
-                      }
-                    })
-                  ]),
+                  _c("h6", [_vm._v("PARTNERSHIP")]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "content" }, [
-                    _c("span", [_vm._v("03.")]),
-                    _vm._v(" "),
-                    _c("figure", { staticClass: "icon" }, [
-                      _c("img", {
-                        attrs: {
-                          src: "/template/images/icon03.png",
-                          alt: "Image"
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("h6", [_vm._v("PARTNERSHIP")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "Necessary ye contented newspaper zealously breakfast he prevailed. "
-                      )
-                    ])
+                  _c("p", [
+                    _vm._v(
+                      "Necessary ye contented newspaper zealously breakfast he prevailed. "
+                    )
                   ])
                 ])
               ])
             ])
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("section", { staticClass: "content-section no-spacing" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row align-items-center no-gutters" }, [
-            _c("div", { staticClass: "col-lg-5" }, [
-              _c("div", { staticClass: "tab-left" }, [
-                _c("h2", [_vm._v("Capibilities Deliver Optimal Results")]),
-                _vm._v(" "),
-                _c("ul", { staticClass: "tab-nav" }, [
-                  _c("li", { staticClass: "active" }, [
-                    _c("a", { attrs: { href: "#tab01" } }, [
-                      _vm._v("Design - Build")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#tab02" } }, [
-                      _vm._v("Pre Construction")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#tab03" } }, [
-                      _vm._v("Virtual Construction")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#tab04" } }, [
-                      _vm._v("Contracting")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "#tab05" } }, [
-                      _vm._v("Pre Fabrication")
-                    ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "content-section no-spacing" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row align-items-center no-gutters" }, [
+          _c("div", { staticClass: "col-lg-5" }, [
+            _c("div", { staticClass: "tab-left" }, [
+              _c("h2", [_vm._v("Capibilities Deliver Optimal Results")]),
+              _vm._v(" "),
+              _c("ul", { staticClass: "tab-nav" }, [
+                _c("li", { staticClass: "active" }, [
+                  _c("a", { attrs: { href: "#tab01" } }, [
+                    _vm._v("Design - Build")
                   ])
                 ]),
                 _vm._v(" "),
-                _c("p", [
-                  _vm._v("Our diverse "),
-                  _c("u", [_vm._v("portfolio")]),
-                  _vm._v(
-                    " represents decades of construction experience backed by a passion for quality, outstanding client "
-                  ),
-                  _c("strong", [_vm._v("service")]),
-                  _vm._v(" industry technologies.")
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab02" } }, [
+                    _vm._v("Pre Construction")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab03" } }, [
+                    _vm._v("Virtual Construction")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab04" } }, [
+                    _vm._v("Contracting")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "#tab05" } }, [
+                    _vm._v("Pre Fabrication")
+                  ])
                 ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-7" }, [
-              _c("div", { staticClass: "tab-right" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "tab-item active-item",
-                    attrs: { id: "tab01" }
-                  },
-                  [
-                    _c("img", {
-                      attrs: { src: "/template/images/tab01.jpg", alt: "Image" }
-                    })
-                  ]
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("Our diverse "),
+                _c("u", [_vm._v("portfolio")]),
+                _vm._v(
+                  " represents decades of construction experience backed by a passion for quality, outstanding client "
                 ),
-                _vm._v(" "),
-                _c("div", { staticClass: "tab-item", attrs: { id: "tab02" } }, [
+                _c("strong", [_vm._v("service")]),
+                _vm._v(" industry technologies.")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-7" }, [
+            _c("div", { staticClass: "tab-right" }, [
+              _c(
+                "div",
+                { staticClass: "tab-item active-item", attrs: { id: "tab01" } },
+                [
                   _c("img", {
-                    attrs: { src: "/template/images/tab02.jpg", alt: "Image" }
+                    attrs: { src: "/template/images/tab01.jpg", alt: "Image" }
                   })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "tab-item", attrs: { id: "tab03" } }, [
-                  _c("img", {
-                    attrs: { src: "/template/images/tab03.jpg", alt: "Image" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "tab-item", attrs: { id: "tab04" } }, [
-                  _c("img", {
-                    attrs: { src: "/template/images/tab04.jpg", alt: "Image" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "tab-item", attrs: { id: "tab05" } }, [
-                  _c("img", {
-                    attrs: { src: "/template/images/tab05.jpg", alt: "Image" }
-                  })
-                ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "tab-item", attrs: { id: "tab02" } }, [
+                _c("img", {
+                  attrs: { src: "/template/images/tab02.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "tab-item", attrs: { id: "tab03" } }, [
+                _c("img", {
+                  attrs: { src: "/template/images/tab03.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "tab-item", attrs: { id: "tab04" } }, [
+                _c("img", {
+                  attrs: { src: "/template/images/tab04.jpg", alt: "Image" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "tab-item", attrs: { id: "tab05" } }, [
+                _c("img", {
+                  attrs: { src: "/template/images/tab05.jpg", alt: "Image" }
+                })
               ])
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "content-section" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row no-gutters" }, [
-            _c("div", { staticClass: "col-12" }, [
-              _c("div", { staticClass: "section-title text-left" }, [
-                _c("h6", [_vm._v("ESTIMATIED PRICE")]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("Sectors We Work In")])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Commercial")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Apartments")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Flats")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Villas")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Medical")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-4 col-md-6" }, [
-              _c("a", { staticClass: "sector-box", attrs: { href: "#" } }, [
-                _c("span", [_vm._v("Industrial")]),
-                _vm._v(" "),
-                _c("i", { staticClass: "lni lni-arrow-right" })
-              ])
-            ])
-          ])
-        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12" }, [
+      _c("div", { staticClass: "section-title text-left" }, [
+        _c("h6", [_vm._v("SMP PROJECTS")]),
+        _vm._v(" "),
+        _c("h2", [_vm._v("Sectors We Work In")])
       ])
     ])
   }
@@ -60963,15 +61330,17 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Services_vue_vue_type_template_id_68e476ea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.vue?vue&type=template&id=68e476ea& */ "./resources/js/components/frontend/pages/Services.vue?vue&type=template&id=68e476ea&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.vue?vue&type=script&lang=js& */ "./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Services_vue_vue_type_template_id_68e476ea___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Services_vue_vue_type_template_id_68e476ea___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -60985,6 +61354,20 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/components/frontend/pages/Services.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./Services.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/frontend/pages/Services.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Services_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 

@@ -8,7 +8,7 @@
                 <div class="inner">
                     <h2>We <b>Build</b> Forever</h2>
                     <p>When we build, let us think that we build forever</p>
-                    <a href="#">BUILD WITH US <i class="lni lni-arrow-right"></i></a> </div>
+                    <a href="/services">BUILD WITH US <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide -->
@@ -16,7 +16,7 @@
                 <div class="inner">
                     <h2>We <b>Build</b> with Vision</h2>
                     <p>We work as our descendants will thank us for</p>
-                    <a href="#">KNOW MORE ABOUT US <i class="lni lni-arrow-right"></i></a> </div>
+                    <a href="/about">KNOW MORE ABOUT US <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide -->
@@ -24,7 +24,7 @@
                 <div class="inner">
                     <h2>We <b>Lay</b> Stone to Stone</h2>
                     <p>That a time is to come when those stones will be held sacred because our hands have touched them</p>
-                    <a href="#">DISCOVER MORE <i class="lni lni-arrow-right"></i></a> </div>
+                    <a href="/projects">DISCOVER MORE <i class="lni lni-arrow-right"></i></a> </div>
                 <!-- end inner --> 
                 </div>
                 <!-- end swiper-slide --> 
@@ -75,7 +75,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon01.png" alt="Image"></figure>
                 <h3>We plan with sensetive</h3>
-                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="/services">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 -->
@@ -83,7 +83,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon02.png" alt="Image"></figure>
                 <h3>For futuristic buildings</h3>
-                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="/services">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 -->
@@ -91,7 +91,7 @@
                 <div class="icon-content">
                 <figure><img src="/template/images/icon03.png" alt="Image"></figure>
                 <h3>Make living beautiful</h3>
-                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="#">+</a> </div>
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </small> <a href="/services">+</a> </div>
                 <!-- end icon-content --> 
             </div>
             <!-- end col-4 --> 
@@ -232,7 +232,7 @@
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-1.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Three Storey Residence</h5>
-                    <p>Rolling Lane, Batasan, Quezon City</p>
+                    <p>Batasan, Quezon City</p>
                     <p>Design Architect : BAAD Studio, Arch. Benjie Mendoza</p>
                 </figcaption>
                 </figure>
@@ -242,7 +242,7 @@
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-2.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Three Storey Residence with Basement</h5>
-                    <p>Pebblewood St. Mckinley Hills, Taguig City</p>
+                    <p>Mckinley Hills, Taguig City</p>
                     <p>Design Architect : Arch. Henry Ng Tan</p>
                 </figcaption>
                 </figure>
@@ -252,7 +252,17 @@
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-3.jpg" alt="Image"></a>
                 <figcaption>
                     <h5>Two Storey Residence</h5>
-                    <p>La Carlota St. Alabang Hills, Muntinlupa City</p>
+                    <p>Alabang Hills, Muntinlupa City</p>
+                    <p>Design Architect: Arch. Mark Joseph Siapno</p>
+                </figcaption>
+                </figure>
+            </div>
+            <!-- end swiper-slide --> 
+            <div class="swiper-slide">
+                <figure class="project-box"> <a href="#"><img src="/template/images/project-4.jpg" alt="Image"></a>
+                <figcaption>
+                    <h5>iTower 2.0 : Fifteen-Storey Residential Bldg</h5>
+                    <p>Sampaloc, Manila</p>
                     <p>Design Architect: Arch. Mark Joseph Siapno</p>
                 </figcaption>
                 </figure>
@@ -410,7 +420,8 @@
                         <p>{{testimonial.testimonial}}</p>
                         <i class="lni lni-quotation"></i>
                         <h6>{{testimonial.name}}</h6>
-                        <small>{{testimonial.company}}</small> </div>
+                        <small>{{testimonial.company}}</small> 
+                    </div>
                     <!-- end testimonial --> 
                     </div>
                   
