@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Projects;
-use App\ProjectCategories;
+use App\Sales;
 use Illuminate\Http\Request;
-use Auth;
 
-class ProjectsController extends Controller
+class SalesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,21 +14,21 @@ class ProjectsController extends Controller
      */
     public function index()
     {
-        $projects = Projects::orderBy('id')->get();
-        $projectcategories = ProjectCategories::orderBy('id')->get();
-        return view('backend.pages.website.projects', compact('projects','projectcategories'));
+        $sales = Sales::orderBy('id')->get();
+        return view('backend.pages.website.sales', compact('sales'));
     }
 
-
-    public function index_i()
-    {
-      return Projects::get();
-    }
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function index_i()
+    {
+      return Sales::get();
+    }
+
     public function create()
     {
         //
@@ -44,16 +42,14 @@ class ProjectsController extends Controller
      */
     public function store(Request $request)
     {
-        $project = $request->validate([
-            'project_name' => ['required', 'max:250'],
-            'description' => ['required'],
-            'location' => ['required','max:250'],
-            'client' => ['required','max:250'],
-            'design_architect' => ['required','max:250'],
-            'scope' => ['required','max:250'],
-            'completed_date' => ['required','max:250'],
-            'size' => ['required','max:250'],
-            'category' => ['required','max:250'],
+        $sales = $request->validate([
+            'name' => ['required', 'max:250'],
+            'position' => ['required'],
+            'contact_no' => ['required','max:250'],
+            'facebook_url' => ['required','max:250'],
+            'twitter_url' => ['required','max:250'],
+            'instagram_url' => ['required','max:250'],
+            'email' => ['required','max:250'],
             'picture' => ['required']
         ]);
 
@@ -61,12 +57,12 @@ class ProjectsController extends Controller
         $filename = pathinfo($file, PATHINFO_FILENAME);
 
         $imageName = $filename.time().'.'.$request->picture->extension();  
-        $picture = $request->picture->move(public_path('images/projects'), $imageName);
+        $picture = $request->picture->move(public_path('images/salesteam'), $imageName);
 
         $requestData = $request->all();
         $requestData['picture'] = $imageName;
         
-        Projects::create($requestData);
+        Sales::create($requestData);
 
         return redirect()->back()->with('success','Successfully Added');
     }
@@ -74,10 +70,10 @@ class ProjectsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Projects  $projects
+     * @param  \App\Sales  $sales
      * @return \Illuminate\Http\Response
      */
-    public function show(Projects $projects)
+    public function show(Sales $sales)
     {
         //
     }
@@ -85,49 +81,48 @@ class ProjectsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Projects  $projects
+     * @param  \App\Sales  $sales
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $projects = Projects::where('id', $id)->orderBy('id')->firstOrFail();
-        return response()->json(compact('projects'));
+        $sales = Sales::where('id', $id)->orderBy('id')->firstOrFail();
+        return response()->json(compact('sales'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Projects  $projects
+     * @param  \App\Sales  $sales
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        $project = $request->validate([
-            'project_name' => ['required', 'max:250'],
-            'description' => ['required'],
-            'location' => ['max:250'],
-            'client' => ['max:250'],
-            'design_architect' => ['max:250'],
-            'scope' => ['max:250'],
-            'completed_date' => ['max:250'],
-            'size' => ['max:250'],
-            'category' => ['max:250']
+        $sales = $request->validate([
+            'name' => ['required', 'max:250'],
+            'position' => ['required'],
+            'contact_no' => ['required','max:250'],
+            'facebook_url' => ['required','max:250'],
+            'twitter_url' => ['required','max:250'],
+            'instagram_url' => ['required','max:250'],
+            'email' => ['required','max:250'],
+            'picture' => ['required']
         ]);
 
         if($request->picture == null) {
-            Projects::find($id)->update($request->all());
+            Sales::find($id)->update($request->all());
         } else {
             $file = $request->picture->getClientOriginalName();
             $filename = pathinfo($file, PATHINFO_FILENAME);
     
             $imageName = $filename.time().'.'.$request->picture->extension();  
-            $picture = $request->picture->move(public_path('images/projects'), $imageName);
+            $picture = $request->picture->move(public_path('images/salesteam'), $imageName);
     
             $requestData = $request->all();
             $requestData['picture'] = $imageName;
             
-            Projects::find($id)->update($requestData);
+            Sales::find($id)->update($requestData);
         }
         return redirect()->back()->with('success','Successfully Updated');
     }
@@ -135,13 +130,13 @@ class ProjectsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Projects  $projects
+     * @param  \App\Sales  $sales
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-        $project_destroy = Projects::find($id);
-        $project_destroy->delete();
+        $sales_destroy = Sales::find($id);
+        $sales_destroy->delete();
         return redirect()->back()->with('success','Successfully Deleted!');
     }
 }

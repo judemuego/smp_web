@@ -24,6 +24,7 @@ class CreateProjectsTable extends Migration
             $table->string('completed_date');
             $table->string('size');
             $table->string('category');
+            $table->text('picture');
             $table->timestamps();
         });
     }

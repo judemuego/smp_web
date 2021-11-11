@@ -16,7 +16,9 @@ class Projects extends Model
         'scope',
         'completed_date',
         'size',
-        'category'
+        'category',
+        'picture'
+
     ];
 
 }

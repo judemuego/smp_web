@@ -107,9 +107,9 @@
                 <ul id="pages" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
                     <li class="sidebar-item"><a class="sidebar-link" href="/admin/project">Projects</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/admin/projectcategory">Project Categories</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="pages-invoice.html">Community Questions</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/faq">Community Questions</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="/admin/testimonial">Testimonials</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="pages-tasks.html">Team</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/salesteam">Sales Team</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-blank.html">Clients</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-blank.html">News</a></li>
                 </ul>

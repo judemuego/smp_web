@@ -77,7 +77,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body m-3">
-                                    <form id="modal-form" action="{{url('admin/project/save')}}" method="post">
+                                    <form id="modal-form" action="{{url('admin/project/save')}}" method="post" enctype="multipart/form-data">
                                         @csrf
                                     <div class="form-group col-md-12">
                                         <label for="">Project Name</label>
@@ -105,7 +105,7 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="">Completed Date</label>
-                                        <input type="text" class="form-control" id="completed_date" name="completed_date" placeholder="Completed Date">
+                                        <input class="form-control" type="date" name="completed_date" id="completed_date" />
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="">Size</label>
@@ -113,11 +113,15 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="">Category</label>
-                                        <select class="custom-select mb-3" id="category" name="category">
+                                        <select class="form-control" id="category" name="category">
                                         @foreach ($projectcategories as $key => $projectcategory)
                                             <option value="{{ $projectcategory->name }}">{{ $projectcategory->name }}</option>
                                         @endforeach
                                         </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="">Featured Photo</label>
+                                        <input type="file" class="form-control" id="picture" name="picture">
                                     </div>
                                 </div>
                                 <div class="modal-footer">

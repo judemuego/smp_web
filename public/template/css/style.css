@@ -1531,6 +1531,7 @@ a:hover {
   flex-wrap: wrap;
   margin: 0 -30px;
   padding: 0;
+  height: auto !important;
 }
 .projects li {
   width: 50%;

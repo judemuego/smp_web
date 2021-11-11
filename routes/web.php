@@ -44,6 +44,8 @@ Route::group(['prefix' => '/admin/project'], function (){
     Route::get          ('/edit/{id}',                   'ProjectsController@edit'                           )->name('reason');
     Route::post         ('/update/{id}',                 'ProjectsController@update'                         )->name('reason_update');
     Route::get          ('/destroy/{id}',                'ProjectsController@destroy'                        )->name('reason_update');
+    Route::post         ('/projectdata',                 'ProjectsController@index_i'                        )->name('reason');
+
 });
 
 Route::group(['prefix' => '/admin/projectcategory'], function (){
@@ -54,6 +56,24 @@ Route::group(['prefix' => '/admin/projectcategory'], function (){
     Route::get          ('/destroy/{id}',                'ProjectCategoriesController@destroy'                        )->name('reason_update');
     Route::post         ('/categorydata',                'ProjectCategoriesController@index_i'                )->name('reason');
 
+});
+
+Route::group(['prefix' => '/admin/faq'], function (){
+    Route::get          ('/',                            'FaqsController@index'                          )->name('selection');
+    Route::post         ('/save',                        'FaqsController@store'                          )->name('reason');
+    Route::get          ('/edit/{id}',                   'FaqsController@edit'                           )->name('reason');
+    Route::post         ('/update/{id}',                 'FaqsController@update'                         )->name('reason_update');
+    Route::get          ('/destroy/{id}',                'FaqsController@destroy'                        )->name('reason_update');
+    Route::post         ('/faqdata',                     'FaqsController@index_i'                        )->name('reason');
+});
+
+Route::group(['prefix' => '/admin/salesteam'], function (){
+    Route::get          ('/',                            'SalesController@index'                          )->name('selection');
+    Route::post         ('/save',                        'SalesController@store'                          )->name('reason');
+    Route::get          ('/edit/{id}',                   'SalesController@edit'                           )->name('reason');
+    Route::post         ('/update/{id}',                 'SalesController@update'                         )->name('reason_update');
+    Route::get          ('/destroy/{id}',                'SalesController@destroy'                        )->name('reason_update');
+    Route::post         ('/salesdata',                   'SalesController@index_i'                        )->name('reason');
 });
 
 Route::get('/{vue?}', function () { return view('frontend.index'); })->where('vue', '[\/\w\.-]*');
