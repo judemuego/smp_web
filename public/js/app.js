@@ -40017,7 +40017,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-lg-7" }, [
               _c("div", { staticClass: "section-title text-left" }, [
-                _c("h6", [_vm._v("PRE TITLE SAMPLE")]),
+                _c("h6", [_vm._v("OUR SUCCESS STORIES")]),
                 _vm._v(" "),
                 _c("h2", [_vm._v("Projects Completed")])
               ])
@@ -40047,11 +40047,13 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Project Name One")]),
+                  _c("h5", [_vm._v("Three Storey Residence")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Rolling Lane, Batasan, Quezon City")]),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "The building opened in 2020 and includes more than 120+ flats"
+                      "Design Architect : BAAD Studio, Arch. Benjie Mendoza"
                     )
                   ])
                 ])
@@ -40070,13 +40072,13 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Project Name Two")]),
+                  _c("h5", [_vm._v("Three Storey Residence with Basement")]),
                   _vm._v(" "),
                   _c("p", [
-                    _vm._v(
-                      "The building opened in 2020 and includes more than 120+ flats"
-                    )
-                  ])
+                    _vm._v("Pebblewood St. Mckinley Hills, Taguig City")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("Design Architect : Arch. Henry Ng Tan")])
                 ])
               ])
             ]),
@@ -40093,12 +40095,14 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("figcaption", [
-                  _c("h5", [_vm._v("Project Name Three")]),
+                  _c("h5", [_vm._v("Two Storey Residence")]),
                   _vm._v(" "),
                   _c("p", [
-                    _vm._v(
-                      "The building opened in 2020 and includes more than 120+ flats"
-                    )
+                    _vm._v("La Carlota St. Alabang Hills, Muntinlupa City")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v("Design Architect: Arch. Mark Joseph Siapno")
                   ])
                 ])
               ])
@@ -40119,7 +40123,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "row no-gutters" }, [
           _c("div", { staticClass: "col-12" }, [
             _c("div", { staticClass: "section-title text-left" }, [
-              _c("h6", [_vm._v("PRE TITLE SAMPLE")]),
+              _c("h6", [_vm._v("SMP PROJECTS")]),
               _vm._v(" "),
               _c("h2", [_vm._v("Sectors We Work In")])
             ])

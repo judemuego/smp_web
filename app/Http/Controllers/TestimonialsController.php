@@ -14,8 +14,8 @@ class TestimonialsController extends Controller
      */
     public function index()
     {
-        $testimonial = Testimonials::orderBy('id', 'desc')->get();
-        return view('backend.pages.testimonials', compact('testimonials'));
+        $testimonials = Testimonials::orderBy('id', 'desc')->get();
+        return view('backend.pages.website.testimonials', compact('testimonials'));
     }
 
     /**
@@ -66,7 +66,7 @@ class TestimonialsController extends Controller
      */
     public function edit($id)
     {
-        $testimonial = Testimonials::where('id', $id)->orderBy('id')->firstOrFail();
+        $testimonials = Testimonials::where('id', $id)->orderBy('id')->firstOrFail();
         return response()->json(compact('testimonials'));
     }
 

@@ -212,7 +212,7 @@
             <div class="row">
             <div class="col-lg-7">
                 <div class="section-title text-left">
-                <h6>PRE TITLE SAMPLE</h6>
+                <h6>OUR SUCCESS STORIES</h6>
                 <h2>Projects Completed</h2>
                 </div>
                 <!-- end section-title --> 
@@ -231,8 +231,9 @@
             <div class="swiper-slide">
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-1.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Project Name One</h5>
-                    <p>The building opened in 2020 and includes more than 120+ flats</p>
+                    <h5>Three Storey Residence</h5>
+                    <p>Rolling Lane, Batasan, Quezon City</p>
+                    <p>Design Architect : BAAD Studio, Arch. Benjie Mendoza</p>
                 </figcaption>
                 </figure>
             </div>
@@ -240,8 +241,9 @@
             <div class="swiper-slide">
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-2.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Project Name Two</h5>
-                    <p>The building opened in 2020 and includes more than 120+ flats</p>
+                    <h5>Three Storey Residence with Basement</h5>
+                    <p>Pebblewood St. Mckinley Hills, Taguig City</p>
+                    <p>Design Architect : Arch. Henry Ng Tan</p>
                 </figcaption>
                 </figure>
             </div>
@@ -249,8 +251,9 @@
             <div class="swiper-slide">
                 <figure class="project-box"> <a href="#"><img src="/template/images/project-3.jpg" alt="Image"></a>
                 <figcaption>
-                    <h5>Project Name Three</h5>
-                    <p>The building opened in 2020 and includes more than 120+ flats</p>
+                    <h5>Two Storey Residence</h5>
+                    <p>La Carlota St. Alabang Hills, Muntinlupa City</p>
+                    <p>Design Architect: Arch. Mark Joseph Siapno</p>
                 </figcaption>
                 </figure>
             </div>
@@ -267,7 +270,7 @@
             <div class="row no-gutters">
             <div class="col-12">
                 <div class="section-title text-left">
-                <h6>PRE TITLE SAMPLE</h6>
+                <h6>SMP PROJECTS</h6>
                 <h2>Sectors We Work In</h2>
                 </div>
                 <!-- end section-title --> 

@@ -49,6 +49,7 @@
                                                     <td>{{ $project->size}}</td>
                                                     <td>{{ $project->category}}</td>
                                                     <td class="table-action">
+                                                        <a href="#" data-toggle="modal" data-target="#projectModal"><i class="align-middle fas fa-fw fa-file-image" ></i></a>
                                                         <a href="#" class="align-middle fas fa-fw fa-pen edit" onclick="getDetails({{$project->id}})" title="Edit" data-toggle="modal" data-target="#projectModal"></a>
                                                         <a href="{{url('admin/project/destroy/' . $project->id)}}" onclick="alert('Are you sure you want to Delete?')"><i class="align-middle fas fa-fw fa-trash"></i></a>
                                                     </td>
@@ -61,6 +62,11 @@
                         </div>
                     </div>
                 </div>
+
+                {{-- PHOTOS MODAL --}}
+
+                
+
 
                 {{-- MODAL --}}
                     <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-hidden="true">

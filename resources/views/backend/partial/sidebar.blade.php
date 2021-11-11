@@ -105,9 +105,10 @@
         <i class="align-middle mr-2 fas fa-fw fa-file"></i> <span class="align-middle">Website Maintenance</span>
         </a>
                 <ul id="pages" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-                    <li class="sidebar-item"><a class="sidebar-link" href="pages-settings.html">Projects</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/project">Projects</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/projectcategory">Project Categories</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-invoice.html">Community Questions</a></li>
-                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/testimonials">Testimonials</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="/admin/testimonial">Testimonials</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-tasks.html">Team</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-blank.html">Clients</a></li>
                     <li class="sidebar-item"><a class="sidebar-link" href="pages-blank.html">News</a></li>
