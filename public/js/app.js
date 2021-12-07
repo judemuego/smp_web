@@ -2481,12 +2481,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -40576,44 +40570,15 @@ var render = function() {
                   domProps: { muted: true }
                 })
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12" }, [
-              _c("div", { staticClass: "testimonials-slider" }, [
-                _c(
-                  "div",
-                  { staticClass: "swiper-wrapper" },
-                  _vm._l(_vm.testimonials, function(testimonial) {
-                    return _c(
-                      "div",
-                      { key: testimonial.id, staticClass: "swiper-slide" },
-                      [
-                        _c("div", { staticClass: "testimonial" }, [
-                          _c("p", [_vm._v(_vm._s(testimonial.testimonial))]),
-                          _vm._v(" "),
-                          _c("i", { staticClass: "lni lni-quotation" }),
-                          _vm._v(" "),
-                          _c("h6", [_vm._v(_vm._s(testimonial.name))]),
-                          _vm._v(" "),
-                          _c("small", [_vm._v(_vm._s(testimonial.company))])
-                        ])
-                      ]
-                    )
-                  }),
-                  0
-                ),
-                _vm._v(" "),
-                _vm._m(8)
-              ])
             ])
           ])
         ])
       ]
     ),
     _vm._v(" "),
-    _vm._m(9),
+    _vm._m(8),
     _vm._v(" "),
-    _vm._m(10)
+    _vm._m(9)
   ])
 }
 var staticRenderFns = [
@@ -41387,20 +41352,6 @@ var staticRenderFns = [
       },
       [_c("i", { staticClass: "lni lni-play" })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "controls" }, [
-      _c("div", { staticClass: "button-prev" }, [
-        _c("i", { staticClass: "lni lni-arrow-left" })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "button-next" }, [
-        _c("i", { staticClass: "lni lni-arrow-right" })
-      ])
-    ])
   },
   function() {
     var _vm = this
@@ -45200,8 +45151,38 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("li", [
-              _c("a", { attrs: { href: "/services" } }, [
-                _vm._v("Subsidiaries")
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Subsidiaries")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c("a", { attrs: { href: "/smp/about-company" } }, [
+                    _vm._v("Construction")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/smp/core-values" } }, [
+                    _vm._v("Systems")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/smp/leadership" } }, [
+                    _vm._v("Retail")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/smp/our-history" } }, [
+                    _vm._v("Hauling & Aggregates")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "/smp/our-logo" } }, [
+                    _vm._v("Security & Investments")
+                  ])
+                ])
               ])
             ]),
             _vm._v(" "),

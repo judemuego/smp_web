@@ -9,16 +9,24 @@
             <div class="site-menu">
             <ul>
                 <li><a href="/">SMP</a>
-                <ul>
-                    <li><a href="/smp/about-company">About Company</a></li>
-                    <li><a href="/smp/core-values">Core Values</a></li>
-                    <li><a href="/smp/leadership">Leadership</a></li>
-                    <li><a href="/smp/our-history">Our History</a></li>
-                    <li><a href="/smp/our-logo">Our Logo</a></li>
-                    <li><a href="/smp/certificates">Certificates</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="/smp/about-company">About Company</a></li>
+                        <li><a href="/smp/core-values">Core Values</a></li>
+                        <li><a href="/smp/leadership">Leadership</a></li>
+                        <li><a href="/smp/our-history">Our History</a></li>
+                        <li><a href="/smp/our-logo">Our Logo</a></li>
+                        <li><a href="/smp/certificates">Certificates</a></li>
+                    </ul>
                 </li>
-                <li><a href="/services">Subsidiaries</a></li>
+                <li><a href="#">Subsidiaries</a>
+                    <ul> 
+                        <li><a href="/smp/about-company">Construction</a></li>
+                        <li><a href="/smp/core-values">Systems</a></li>
+                        <li><a href="/smp/leadership">Retail</a></li>
+                        <li><a href="/smp/our-history">Hauling & Aggregates</a></li>
+                        <li><a href="/smp/our-logo">Security & Investments</a></li>
+                    </ul>
+                </li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/projects">Portfolio</a></li>
                 <li><a href="/about">About</a></li>
