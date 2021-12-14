@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
         <div class="container">
-            <div class="logo"> <a href="/"><img src="/template/images/logo_vertical.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="/"><img src="/template/images/logo_vertical1.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="languages">
             </div>
@@ -16,15 +16,6 @@
                         <li><a href="/smp/our-history">Our History</a></li>
                         <li><a href="/smp/our-logo">Our Logo</a></li>
                         <li><a href="/smp/certificates">Certificates</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Subsidiaries</a>
-                    <ul> 
-                        <li><a href="/smp/about-company">Construction</a></li>
-                        <li><a href="/smp/core-values">Systems</a></li>
-                        <li><a href="/smp/leadership">Retail</a></li>
-                        <li><a href="/smp/our-history">Hauling & Aggregates</a></li>
-                        <li><a href="/smp/our-logo">Security & Investments</a></li>
                     </ul>
                 </li>
                 <li><a href="/services">Services</a></li>

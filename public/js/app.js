@@ -45099,7 +45099,10 @@ var staticRenderFns = [
         _c("div", { staticClass: "logo" }, [
           _c("a", { attrs: { href: "/" } }, [
             _c("img", {
-              attrs: { src: "/template/images/logo_vertical.png", alt: "Image" }
+              attrs: {
+                src: "/template/images/logo_vertical1.png",
+                alt: "Image"
+              }
             })
           ])
         ]),
@@ -45145,42 +45148,6 @@ var staticRenderFns = [
                 _c("li", [
                   _c("a", { attrs: { href: "/smp/certificates" } }, [
                     _vm._v("Certificates")
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", [
-              _c("a", { attrs: { href: "#" } }, [_vm._v("Subsidiaries")]),
-              _vm._v(" "),
-              _c("ul", [
-                _c("li", [
-                  _c("a", { attrs: { href: "/smp/about-company" } }, [
-                    _vm._v("Construction")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/smp/core-values" } }, [
-                    _vm._v("Systems")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/smp/leadership" } }, [
-                    _vm._v("Retail")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/smp/our-history" } }, [
-                    _vm._v("Hauling & Aggregates")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "/smp/our-logo" } }, [
-                    _vm._v("Security & Investments")
                   ])
                 ])
               ])

@@ -47,5 +47,4 @@ Vue.component('footer-page', require('./components/frontend/partial/Footer.vue')
 const app = new Vue({
     el: '#app',
     router: new VueRouter(routers),
-    
 });
