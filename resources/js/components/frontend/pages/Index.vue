@@ -412,7 +412,7 @@
                 <!-- end video-box --> 
             </div>
             <!-- end col-12 -->
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <div class="testimonials-slider">
                 <div class="swiper-wrapper">
                     <div v-for="testimonial in testimonials" :key="testimonial.id" class="swiper-slide">
@@ -422,21 +422,15 @@
                         <h6>{{testimonial.name}}</h6>
                         <small>{{testimonial.company}}</small> 
                     </div>
-                    <!-- end testimonial --> 
                     </div>
                   
                 </div>
-                <!-- end swiper-wrapper -->
                 <div class="controls">
                     <div class="button-prev"><i class="lni lni-arrow-left"></i></div>
-                    <!-- end button-prev -->
                     <div class="button-next"><i class="lni lni-arrow-right"></i></div>
-                    <!-- end button-next --> 
                 </div>
-                <!-- end controls --> 
                 </div>
-                <!-- end testimonials-slider --> 
-            </div>
+            </div> -->
             <!-- end col-12 --> 
             </div>
             <!-- end row --> 

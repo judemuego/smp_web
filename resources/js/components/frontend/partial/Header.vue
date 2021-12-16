@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
         <div class="container">
-            <div class="logo"> <a href="/"><img src="/template/images/logo_vertical.png" alt="Image"></a> </div>
+            <div class="logo"> <a href="/"><img src="/template/images/logo_vertical1.png" alt="Image"></a> </div>
             <!-- end logo -->
             <div class="languages">
             </div>
@@ -9,16 +9,15 @@
             <div class="site-menu">
             <ul>
                 <li><a href="/">SMP</a>
-                <ul>
-                    <li><a href="/smp/about-company">About Company</a></li>
-                    <li><a href="/smp/core-values">Core Values</a></li>
-                    <li><a href="/smp/leadership">Leadership</a></li>
-                    <li><a href="/smp/our-history">Our History</a></li>
-                    <li><a href="/smp/our-logo">Our Logo</a></li>
-                    <li><a href="/smp/certificates">Certificates</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="/smp/about-company">About Company</a></li>
+                        <li><a href="/smp/core-values">Core Values</a></li>
+                        <li><a href="/smp/leadership">Leadership</a></li>
+                        <li><a href="/smp/our-history">Our History</a></li>
+                        <li><a href="/smp/our-logo">Our Logo</a></li>
+                        <li><a href="/smp/certificates">Certificates</a></li>
+                    </ul>
                 </li>
-                <li><a href="/services">Subsidiaries</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/projects">Portfolio</a></li>
                 <li><a href="/about">About</a></li>
