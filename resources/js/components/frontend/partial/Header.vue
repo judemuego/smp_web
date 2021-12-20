@@ -14,7 +14,7 @@
                         <li><a href="/smp/core-values">Core Values</a></li>
                         <li><a href="/smp/leadership">Leadership</a></li>
                         <li><a href="/smp/our-history">Our History</a></li>
-                        <li><a href="/smp/our-logo">Our Logo</a></li>
+                        <!-- <li><a href="/smp/our-logo">Our Logo</a></li> -->
                         <li><a href="/smp/certificates">Certificates</a></li>
                     </ul>
                 </li>

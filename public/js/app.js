@@ -45140,12 +45140,6 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "/smp/our-logo" } }, [
-                    _vm._v("Our Logo")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
                   _c("a", { attrs: { href: "/smp/certificates" } }, [
                     _vm._v("Certificates")
                   ])
